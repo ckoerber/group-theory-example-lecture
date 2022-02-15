@@ -1,40 +1,30 @@
-# Group Theory in Nuclear and Particle Physics Slide
+# Group Theory in Nuclear and Particle Physics Example Lecture
 
-## How to port from Keynote
+These slides were presented in the weekly "Group Theory in Nuclear and Particle Physics" lecture (the 10th lecture) at Ruhr-University Bochum during the winter semester of 21/22.
+The lecture is a master's level course for physicists and mathematicians.
+This repository demonstrates how this framework was used.
 
-1. Copy each div from Keynote into pages
-2. Export to word
-3. Import on ubuntu and export to html
-4. run `scripts/clean_html.py` over exported html
-5. Copy into proper reveal.js shape.
+## Features
+These slides contain dynamic elements such as
+* a voice-over (recorded during the digital "live" lecture),
+* [animated figures](https://ckoerber.github.io/group-theory-example-lecture/#/4/2),
+* [white-board like derivations in the form of videos](https://ckoerber.github.io/group-theory-example-lecture/#/3/2)
 
-## Resize windows (ubuntu)
+The slides are based on the [reveal.js framework](https://revealjs.com/), were created using open-source tools only, and are under version control (this repository stores the entire presentation).
 
-```bash
-wmctrl -l
-wmctrl -r Firefox -e 0,100,100,1485,1150
-wmctrl -r UxPlay@ckoerber-2020 -e 0,1585,100,835,1112
-```
-## Install
-You need `npm` installed to build the dependencies
-```bash
-npm install .
-```
-And `sass` to compile the `scss` file to a `css` file
-```bash
-make css
-```
-
-Download and extract the [RUB corporate fonts](https://serviceportal.ruhr-uni-bochum.de/Begriffesammlung/Documents/RUB-Corporate-Design-Fonts.zip) into `static/fonts`
+More details can be found in the documentation.
 
 ## Run
 
-The presentation can be viewed in any browser (`index.html`).
+The presentation can be directly viewed in any browser (`index.html`) after cloning the repository.
+I.e., all needed static files are included, and no additional `npm install` is needed (you may want to adjust this if you want to use this as a base for different projects).
 
-Ideally, you can run it on a localhost (this allows including slides), by running
+Because of the current architecture (slides are separated into several files and included by `index.html`),
+you have to launch a local webserver to generate the content.
+This is done, i.e., by
 ```bash
 python3 -m http.server
+# or
+npx  http-server
 ```
-and visiting http://0.0.0.0:8000/ or (your ip) instead.
-
-Additionally, versions of Chrome browsers can be used [to export it to `pdf`](https://revealjs.com/pdf-export/): [index.html?print-pdf](index.html?print-pdf).
+and visiting http://{ip-address}:8000/ (where the IP-address is usually `127.0.0.1`, `localhost`, or `0.0.0.0`; the above command tells you where to look).
