@@ -1,3 +1,445 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d72a66c42ca722ef1fb4aebaca1c1e64f8aa41a317903aa8a5601028bc563971
-size 37622
+<ns0:svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" xmlns:ns2="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns4="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="142.48396mm" height="475.31888mm" viewBox="0 0 142.48396 475.31888" version="1.1" id="svg3925" ns1:version="1.0.2 (e86c870879, 2021-01-15)" ns2:docname="su3-multiplets-vertical.svg">
+  <ns0:defs id="defs3919">
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath38">
+      <ns0:path d="m 1586.667,19.37638 h 317.4803 V 80 H 1586.667 Z" id="path36" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath946">
+      <ns0:path d="m 1236.136,707.5976 h 325.6483 v 317.2445 H 1236.136 Z" id="path944" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath958">
+      <ns0:path d="m 1236.136,707.5976 h 325.6483 v 317.2445 H 1236.136 Z" id="path956" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath970">
+      <ns0:path d="m 1236.136,707.5976 h 325.6483 v 317.2445 H 1236.136 Z" id="path968" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath982">
+      <ns0:path d="m 1222.129,693.5912 h 382.5881 V 1080 H 1222.129 Z" id="path980" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1008">
+      <ns0:path d="m 1558.797,857.6645 h 45.9201 v 32.9928 h -45.9201 z" id="path1006" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1018">
+      <ns0:path d="m 1222.129,693.5912 h 382.5881 V 1080 H 1222.129 Z" id="path1016" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1032">
+      <ns0:path d="m 1336.301,745.4465 h 54.7611 v 32.9928 h -54.7611 z" id="path1030" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1042">
+      <ns0:path d="m 1222.129,693.5912 h 382.5881 V 1080 H 1222.129 Z" id="path1040" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1058">
+      <ns0:path d="m 1385.04,1043.521 h 54.7611 v 32.9928 H 1385.04 Z" id="path1056" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1068">
+      <ns0:path d="m 1236.136,707.5976 h 325.6483 v 317.2445 H 1236.136 Z" id="path1066" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1080">
+      <ns0:path d="m 1236.136,707.5976 h 325.6483 v 317.2445 H 1236.136 Z" id="path1078" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1092">
+      <ns0:path d="m 1236.136,707.5976 h 325.6483 v 317.2445 H 1236.136 Z" id="path1090" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1104">
+      <ns0:path d="m 1236.136,707.5976 h 325.6483 v 317.2445 H 1236.136 Z" id="path1102" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1116">
+      <ns0:path d="m 1236.136,707.5976 h 325.6483 v 317.2445 H 1236.136 Z" id="path1114" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1128">
+      <ns0:path d="m 1236.136,707.5976 h 325.6483 v 317.2445 H 1236.136 Z" id="path1126" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1140">
+      <ns0:path d="m 1236.136,707.5976 h 325.6483 v 317.2445 H 1236.136 Z" id="path1138" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1152">
+      <ns0:path d="m 1222.129,693.5912 h 382.5881 V 1080 H 1222.129 Z" id="path1150" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1170">
+      <ns0:path d="m 1493.172,866.2081 h 52.057 v 27.60424 h -52.057 z" id="path1168" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1180">
+      <ns0:path d="m 1222.129,693.5912 h 382.5881 V 1080 H 1222.129 Z" id="path1178" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1196">
+      <ns0:path d="m 1451.817,973.2031 h 54.7611 v 32.9928 h -54.7611 z" id="path1194" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1206">
+      <ns0:path d="m 1222.129,693.5912 h 382.5881 V 1080 H 1222.129 Z" id="path1204" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1218">
+      <ns0:path d="m 1384.623,866.5789 h 52.057 v 27.60424 h -52.057 z" id="path1216" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1228">
+      <ns0:path d="m 1413.242,866.5789 h 52.057 v 27.60424 h -52.057 z" id="path1226" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1238">
+      <ns0:path d="m 1222.129,693.5912 h 382.5881 V 1080 H 1222.129 Z" id="path1236" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1248">
+      <ns0:path d="m 1352.986,768.2691 h 38.3327 v 23.09496 h -38.3327 z" id="path1246" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1258">
+      <ns0:path d="m 1222.129,693.5912 h 382.5881 V 1080 H 1222.129 Z" id="path1256" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1270">
+      <ns0:path d="m 1343.268,973.2031 h 54.7611 v 32.9928 h -54.7611 z" id="path1268" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1280">
+      <ns0:path d="m 1276.073,866.0196 h 52.057 v 27.60424 h -52.057 z" id="path1278" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1290">
+      <ns0:path d="m 1297.168,873.9899 h 38.3327 v 23.09496 h -38.3327 z" id="path1288" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1300">
+      <ns0:path d="m 1391.1,704.5598 41.418,-90.9242 -31.735,-14.4562 -41.418,90.9241 z" id="path1298" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1306">
+      <ns0:path d="M 0,0 H 1920 V 1080 H 0 Z" id="path1304" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1344">
+      <ns0:path d="m 1502.056,704.6567 31.155,-68.3948 -31.735,-14.4563 -31.156,68.3948 z" id="path1342" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1350">
+      <ns0:path d="M 0,0 H 1920 V 1080 H 0 Z" id="path1348" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1382">
+      <ns0:path d="m 1579.875,758.6588 30.136,-66.1562 -31.736,-14.4562 -30.136,66.1561 z" id="path1380" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1388">
+      <ns0:path d="M 0,0 H 1920 V 1080 H 0 Z" id="path1386" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1420">
+      <ns0:path d="m 1603.189,1016.315 h 299.0717 v 35.778 H 1603.189 Z" id="path1418" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1572">
+      <ns0:path d="m 1116.053,228.8449 h 325.8373 V 546.2735 H 1116.053 Z" id="path1570" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1584">
+      <ns0:path d="m 1102.039,214.8305 h 382.8102 v 386.633 H 1102.039 Z" id="path1582" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1600">
+      <ns0:path d="m 1170.446,346.4488 h 54.7928 v 33.01195 h -54.7928 z" id="path1598" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1610">
+      <ns0:path d="m 1102.039,214.8305 h 382.8102 v 386.633 H 1102.039 Z" id="path1608" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1634">
+      <ns0:path d="m 1438.902,378.9989 h 45.9468 v 33.01195 h -45.9468 z" id="path1632" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1644">
+      <ns0:path d="m 1102.039,214.8305 h 382.8102 v 386.633 H 1102.039 Z" id="path1642" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1658">
+      <ns0:path d="m 1216.276,228.2395 h 54.7928 v 33.01195 h -54.7928 z" id="path1656" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1668">
+      <ns0:path d="m 1102.039,214.8305 h 382.8102 v 386.633 H 1102.039 Z" id="path1666" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1688">
+      <ns0:path d="m 1246.553,564.9637 h 54.7928 v 33.01195 h -54.7928 z" id="path1686" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1698">
+      <ns0:path d="m 1282.802,564.7204 h 54.7928 v 33.01195 h -54.7928 z" id="path1696" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1708">
+      <ns0:path d="m 1116.053,228.8449 h 325.8373 V 546.2735 H 1116.053 Z" id="path1706" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1720">
+      <ns0:path d="m 1116.053,228.8449 h 325.8373 V 546.2735 H 1116.053 Z" id="path1718" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1732">
+      <ns0:path d="m 1116.053,228.8449 h 325.8373 V 546.2735 H 1116.053 Z" id="path1730" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1766">
+      <ns0:path d="m 1311.57,240.369 58.945,-113.2781 -30.935,-16.0973 -58.945,113.2781 z" id="path1764" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1772">
+      <ns0:path d="M 0,0 H 1920 V 1080 H 0 Z" id="path1770" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1822">
+      <ns0:path d="m 1443.12,251.5773 58.945,-113.2782 -30.936,-16.0973 -58.945,113.2781 z" id="path1820" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1828">
+      <ns0:path d="M 0,0 H 1920 V 1080 H 0 Z" id="path1826" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1878">
+      <ns0:path d="m 1376.374,556.2591 57.519,-110.537 -26.837,-13.9647 -57.519,110.537 z" id="path1876" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1884">
+      <ns0:path d="M 0,0 H 1920 V 1080 H 0 Z" id="path1882" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1934">
+      <ns0:path d="M 0,0 H 1920 V 1080 H 0 Z" id="path1932" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1966">
+      <ns0:path d="m 1514.73,228.8449 h 325.8373 V 546.2735 H 1514.73 Z" id="path1964" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1978">
+      <ns0:path d="m 1514.73,228.8449 h 325.8373 V 546.2735 H 1514.73 Z" id="path1976" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1990">
+      <ns0:path d="m 1500.716,214.8305 h 382.8102 v 386.633 H 1500.716 Z" id="path1988" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath2006">
+      <ns0:path d="m 1569.123,346.4488 h 54.7928 v 33.01195 h -54.7928 z" id="path2004" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath2016">
+      <ns0:path d="m 1500.716,214.8305 h 382.8102 v 386.633 H 1500.716 Z" id="path2014" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath2040">
+      <ns0:path d="m 1837.579,378.9989 h 45.9468 v 33.01195 h -45.9468 z" id="path2038" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath2050">
+      <ns0:path d="m 1500.716,214.8305 h 382.8102 v 386.633 H 1500.716 Z" id="path2048" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath2064">
+      <ns0:path d="m 1614.954,228.2395 h 54.7928 v 33.01195 h -54.7928 z" id="path2062" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath2074">
+      <ns0:path d="m 1500.716,214.8305 h 382.8102 v 386.633 H 1500.716 Z" id="path2072" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath2094">
+      <ns0:path d="m 1645.23,564.9637 h 54.7928 v 33.01195 H 1645.23 Z" id="path2092" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath2104">
+      <ns0:path d="m 1681.479,564.7204 h 54.7928 v 33.01195 h -54.7928 z" id="path2102" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath2114">
+      <ns0:path d="m 1514.73,228.8449 h 325.8373 V 546.2735 H 1514.73 Z" id="path2112" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath2126">
+      <ns0:path d="m 1514.73,228.8449 h 325.8373 V 546.2735 H 1514.73 Z" id="path2124" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath2138">
+      <ns0:path d="m 1514.73,228.8449 h 325.8373 V 546.2735 H 1514.73 Z" id="path2136" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath2150">
+      <ns0:path d="m 1500.716,214.8305 h 382.8102 v 386.633 H 1500.716 Z" id="path2148" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath2168">
+      <ns0:path d="m 1751.965,390.7188 h 54.7928 v 33.01195 h -54.7928 z" id="path2166" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath2178">
+      <ns0:path d="m 1500.716,214.8305 h 382.8102 v 386.633 H 1500.716 Z" id="path2176" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath2188">
+      <ns0:path d="m 1677.357,531.1116 h 54.7928 v 33.01195 h -54.7928 z" id="path2186" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath2198">
+      <ns0:path d="m 1500.716,214.8305 h 382.8102 v 386.633 H 1500.716 Z" id="path2196" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath2208">
+      <ns0:path d="m 1603.852,386.8259 h 54.7928 v 33.01195 h -54.7928 z" id="path2206" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath2218">
+      <ns0:path d="m 1843.664,240.369 58.945,-113.2781 -30.935,-16.0973 -58.945,113.2781 z" id="path2216" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath2224">
+      <ns0:path d="M 0,0 H 1920 V 1080 H 0 Z" id="path2222" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath2274">
+      <ns0:path d="m 1705.12,239.369 58.945,-113.2781 -30.936,-16.0973 -58.945,113.2781 z" id="path2272" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath2280">
+      <ns0:path d="M 0,0 H 1920 V 1080 H 0 Z" id="path2278" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath2330">
+      <ns0:path d="m 1780.536,546.4772 57.518,-110.5371 -26.118,-13.5908 -57.519,110.537 z" id="path2328" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath2336">
+      <ns0:path d="M 0,0 H 1920 V 1080 H 0 Z" id="path2334" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1572-6">
+      <ns0:path d="m 1116.053,228.8449 h 325.8373 V 546.2735 H 1116.053 Z" id="path1570-1" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath2150-2">
+      <ns0:path d="m 1500.716,214.8305 h 382.8102 v 386.633 H 1500.716 Z" id="path2148-4" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1744">
+      <ns0:path d="m 1102.039,214.8305 h 382.8102 v 386.633 H 1102.039 Z" id="path1742" />
+    </ns0:clipPath>
+  </ns0:defs>
+  <ns2:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" ns1:pageopacity="0.0" ns1:pageshadow="2" ns1:zoom="0.49497475" ns1:cx="184.97591" ns1:cy="868.51875" ns1:document-units="mm" ns1:current-layer="layer5" ns1:document-rotation="0" showgrid="true" ns1:window-width="3368" ns1:window-height="1376" ns1:window-x="72" ns1:window-y="27" ns1:window-maximized="1">
+    <ns1:grid type="xygrid" id="grid3492" originx="-306.13239" originy="-0.54593885" />
+  </ns2:namedview>
+  <ns0:metadata id="metadata3922">
+    <rdf:RDF>
+      <ns4:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </ns4:Work>
+    </rdf:RDF>
+  </ns0:metadata>
+  <ns0:g ns1:groupmode="layer" id="layer4" ns1:label="charge" style="display:inline">
+    <ns0:g id="g3720" style="display:inline" transform="translate(-306.13242,-0.54593887)">
+      <ns0:g id="g3658">
+        <ns0:text transform="rotate(62.50952)" style="font-style:italic;font-variant:normal;font-size:10.5833px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Italic;writing-mode:lr-tb;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778" id="text2236" x="581.56946" y="-172.86676"><ns0:tspan x="581.56946" y="-172.86676" id="tspan2234" style="stroke-width:0.352778">Q</ns0:tspan></ns0:text>
+        <ns0:text transform="rotate(62.50952)" style="font-variant:normal;font-weight:normal;font-size:10.5833px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Regular;writing-mode:lr-tb;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778" id="text2242" x="592.15039" y="-172.86676"><ns0:tspan x="592.15039" y="-172.86676" id="tspan2240" style="stroke-width:0.352778">=</ns0:tspan></ns0:text>
+        <ns0:text transform="rotate(62.50952)" style="font-variant:normal;font-weight:normal;font-size:10.5833px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Regular;writing-mode:lr-tb;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778" id="text2248" x="602.33984" y="-172.86676"><ns0:tspan x="602.33984" y="-172.86676" id="tspan2246" style="stroke-width:0.352778">+</ns0:tspan></ns0:text>
+        <ns0:text transform="rotate(62.50952)" style="font-variant:normal;font-weight:normal;font-size:10.5833px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Regular;writing-mode:lr-tb;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778" id="text2254" x="611.94122" y="-172.86676"><ns0:tspan x="611.94122" y="-172.86676" id="tspan2252" style="stroke-width:0.352778">1</ns0:tspan></ns0:text>
+        <ns0:text transform="rotate(62.50952)" style="font-variant:normal;font-weight:normal;font-size:10.5833px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Regular;writing-mode:lr-tb;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778" id="text2260" x="617.82086" y="-172.86676"><ns0:tspan x="617.82086" y="-172.86676" id="tspan2258" style="stroke-width:0.352778">/</ns0:tspan></ns0:text>
+        <ns0:text transform="rotate(62.50952)" style="font-variant:normal;font-weight:normal;font-size:10.5833px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Regular;writing-mode:lr-tb;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778" id="text2266" x="621.35101" y="-172.86676"><ns0:tspan x="621.35101" y="-172.86676" id="tspan2264" style="stroke-width:0.352778">3</ns0:tspan></ns0:text>
+      </ns0:g>
+      <ns0:g id="g1960" transform="matrix(0.35277777,0,0,-0.35277777,-219.87368,515.96464)">
+        <ns0:g id="g1962" clip-path="url(#clipPath1966)">
+          <ns0:g id="g1968" transform="matrix(1.946459,0,0,1.946459,1500.716,214.8304)">
+            <ns0:path d="M 14.80909,162.8673 98.91316,-1" style="fill:none;stroke:#808080;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:5.55, 2.4;stroke-dashoffset:0;stroke-opacity:1" id="path1970" />
+          </ns0:g>
+        </ns0:g>
+      </ns0:g>
+      <ns0:g id="g1972" transform="matrix(0.35277777,0,0,-0.35277777,-219.87368,515.96464)">
+        <ns0:g id="g1974" clip-path="url(#clipPath1978)">
+          <ns0:g id="g1980" transform="matrix(1.946459,0,0,1.946459,1500.716,214.8304)">
+            <ns0:path d="M 72.02966,199.634 166.9909,14.61273" style="fill:none;stroke:#808080;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:5.55, 2.4;stroke-dashoffset:0;stroke-opacity:1" id="path1982" />
+          </ns0:g>
+        </ns0:g>
+      </ns0:g>
+      <ns0:g id="g3678">
+        <ns0:g id="g2288" transform="matrix(0.16284265,0.31294477,0.31294477,-0.16284265,363.68779,441.26739)">
+          <ns0:text transform="matrix(1,0,0,-1,0,29.51981)" style="font-style:italic;font-variant:normal;font-size:30px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Italic;writing-mode:lr-tb;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none" id="text2292"><ns0:tspan x="0" y="0" id="tspan2290">Q</ns0:tspan></ns0:text>
+        </ns0:g>
+        <ns0:g id="g2294" transform="matrix(0.16284265,0.31294477,0.31294477,-0.16284265,363.68779,441.26739)">
+          <ns0:text transform="matrix(1,0,0,-1,29.99333,29.51981)" style="font-variant:normal;font-weight:normal;font-size:30px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Regular;writing-mode:lr-tb;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none" id="text2298"><ns0:tspan x="0" y="0" id="tspan2296">=</ns0:tspan></ns0:text>
+        </ns0:g>
+        <ns0:g id="g2300" transform="matrix(0.16284265,0.31294477,0.31294477,-0.16284265,363.68779,441.26739)">
+          <ns0:text transform="matrix(1,0,0,-1,58.87667,29.51981)" style="font-variant:normal;font-weight:normal;font-size:30px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Regular;writing-mode:lr-tb;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none" id="text2304"><ns0:tspan x="0" y="0" id="tspan2302">&#8722;</ns0:tspan></ns0:text>
+        </ns0:g>
+        <ns0:g id="g2306" transform="matrix(0.16284265,0.31294477,0.31294477,-0.16284265,363.68779,441.26739)">
+          <ns0:text transform="matrix(1,0,0,-1,86.09333,29.51981)" style="font-variant:normal;font-weight:normal;font-size:30px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Regular;writing-mode:lr-tb;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none" id="text2310"><ns0:tspan x="0" y="0" id="tspan2308">2</ns0:tspan></ns0:text>
+        </ns0:g>
+        <ns0:g id="g2312" transform="matrix(0.16284265,0.31294477,0.31294477,-0.16284265,363.68779,441.26739)">
+          <ns0:text transform="matrix(1,0,0,-1,102.76,29.51981)" style="font-variant:normal;font-weight:normal;font-size:30px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Regular;writing-mode:lr-tb;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none" id="text2316"><ns0:tspan x="0" y="0" id="tspan2314">/</ns0:tspan></ns0:text>
+        </ns0:g>
+        <ns0:g id="g2318" transform="matrix(0.16284265,0.31294477,0.31294477,-0.16284265,363.68779,441.26739)">
+          <ns0:text transform="matrix(1,0,0,-1,112.7667,29.51981)" style="font-variant:normal;font-weight:normal;font-size:30px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Regular;writing-mode:lr-tb;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none" id="text2322"><ns0:tspan x="0" y="0" id="tspan2320">3</ns0:tspan></ns0:text>
+        </ns0:g>
+      </ns0:g>
+    </ns0:g>
+    <ns0:g id="g4448" style="display:inline" transform="translate(94.68671,-116.8129)">
+      <ns0:g id="g4398">
+        <ns0:g id="g940" transform="matrix(0.35277777,0,0,-0.35277777,-522.78306,493.61166)">
+          <ns0:g id="g942" clip-path="url(#clipPath946)">
+            <ns0:g id="g948" transform="matrix(1.94533,0,0,1.94533,1222.129,693.5912)">
+              <ns0:path d="M -1,159.0768 81.15861,-1" style="fill:none;stroke:#808080;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:5.55, 2.4;stroke-dashoffset:0;stroke-opacity:1" id="path950" />
+            </ns0:g>
+          </ns0:g>
+        </ns0:g>
+        <ns0:g id="g4325">
+          <ns0:g id="g1314" transform="matrix(0.14624121,0.32103841,0.32103841,-0.14624121,-50.48629,253.85178)">
+            <ns0:text transform="matrix(1,0,0,-1,0,29.51981)" style="font-style:italic;font-variant:normal;font-size:30px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Italic;writing-mode:lr-tb;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none" id="text1318"><ns0:tspan x="0" y="0" id="tspan1316">Q</ns0:tspan></ns0:text>
+          </ns0:g>
+          <ns0:g id="g1320" transform="matrix(0.14624121,0.32103841,0.32103841,-0.14624121,-50.48629,253.85178)">
+            <ns0:text transform="matrix(1,0,0,-1,29.99333,29.51981)" style="font-variant:normal;font-weight:normal;font-size:30px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Regular;writing-mode:lr-tb;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none" id="text1324"><ns0:tspan x="0" y="0" id="tspan1322">=</ns0:tspan></ns0:text>
+          </ns0:g>
+          <ns0:g id="g1326" transform="matrix(0.14624121,0.32103841,0.32103841,-0.14624121,-50.48629,253.85178)">
+            <ns0:text transform="matrix(1,0,0,-1,58.87667,29.51981)" style="font-variant:normal;font-weight:normal;font-size:30px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Regular;writing-mode:lr-tb;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none" id="text1330"><ns0:tspan x="0" y="0" id="tspan1328">&#8722;</ns0:tspan></ns0:text>
+          </ns0:g>
+          <ns0:g id="g1332" transform="matrix(0.14624121,0.32103841,0.32103841,-0.14624121,-50.48629,253.85178)">
+            <ns0:text transform="matrix(1,0,0,-1,86.09333,29.51981)" style="font-variant:normal;font-weight:normal;font-size:30px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Regular;writing-mode:lr-tb;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none" id="text1336"><ns0:tspan x="0" y="0" id="tspan1334">1</ns0:tspan></ns0:text>
+          </ns0:g>
+        </ns0:g>
+      </ns0:g>
+      <ns0:g id="g4379">
+        <ns0:g id="g952" transform="matrix(0.35277777,0,0,-0.35277777,-522.78306,493.61166)">
+          <ns0:g id="g954" clip-path="url(#clipPath958)">
+            <ns0:g id="g960" transform="matrix(1.94533,0,0,1.94533,1222.129,693.5912)">
+              <ns0:path d="M 33.9842,199.634 136.9586,-1" style="fill:none;stroke:#808080;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:5.55, 2.4;stroke-dashoffset:0;stroke-opacity:1" id="path962" />
+            </ns0:g>
+          </ns0:g>
+        </ns0:g>
+        <ns0:g id="g4336">
+          <ns0:g id="g1358" transform="matrix(0.14624121,0.32103841,0.32103841,-0.14624121,-11.34347,253.81756)">
+            <ns0:text transform="matrix(1,0,0,-1,0,29.51981)" style="font-style:italic;font-variant:normal;font-size:30px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Italic;writing-mode:lr-tb;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none" id="text1362"><ns0:tspan x="0" y="0" id="tspan1360">Q</ns0:tspan></ns0:text>
+          </ns0:g>
+          <ns0:g id="g1364" transform="matrix(0.14624121,0.32103841,0.32103841,-0.14624121,-11.34347,253.81756)">
+            <ns0:text transform="matrix(1,0,0,-1,29.99333,29.51981)" style="font-variant:normal;font-weight:normal;font-size:30px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Regular;writing-mode:lr-tb;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none" id="text1368"><ns0:tspan x="0" y="0" id="tspan1366">=</ns0:tspan></ns0:text>
+          </ns0:g>
+          <ns0:g id="g1370" transform="matrix(0.14624121,0.32103841,0.32103841,-0.14624121,-11.34347,253.81756)">
+            <ns0:text transform="matrix(1,0,0,-1,58.87667,29.51981)" style="font-variant:normal;font-weight:normal;font-size:30px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Regular;writing-mode:lr-tb;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none" id="text1374"><ns0:tspan x="0" y="0" id="tspan1372">0</ns0:tspan></ns0:text>
+          </ns0:g>
+        </ns0:g>
+      </ns0:g>
+      <ns0:g id="g4363">
+        <ns0:g id="g964" transform="matrix(0.35277777,0,0,-0.35277777,-522.78306,493.61166)">
+          <ns0:g id="g966" clip-path="url(#clipPath970)">
+            <ns0:g id="g972" transform="matrix(1.94533,0,0,1.94533,1222.129,693.5912)">
+              <ns0:path d="M 89.7842,199.634 192.7586,-1" style="fill:none;stroke:#808080;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:5.55, 2.4;stroke-dashoffset:0;stroke-opacity:1" id="path974" />
+            </ns0:g>
+          </ns0:g>
+        </ns0:g>
+        <ns0:g id="g4347">
+          <ns0:g id="g1396" transform="matrix(0.14624121,0.32103841,0.32103841,-0.14624121,16.10934,234.76685)">
+            <ns0:text transform="matrix(1,0,0,-1,0,29.51981)" style="font-style:italic;font-variant:normal;font-size:30px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Italic;writing-mode:lr-tb;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none" id="text1400"><ns0:tspan x="0" y="0" id="tspan1398">Q</ns0:tspan></ns0:text>
+          </ns0:g>
+          <ns0:g id="g1402" transform="matrix(0.14624121,0.32103841,0.32103841,-0.14624121,16.10934,234.76685)">
+            <ns0:text transform="matrix(1,0,0,-1,29.99333,29.51981)" style="font-variant:normal;font-weight:normal;font-size:30px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Regular;writing-mode:lr-tb;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none" id="text1406"><ns0:tspan x="0" y="0" id="tspan1404">=</ns0:tspan></ns0:text>
+          </ns0:g>
+          <ns0:g id="g1408" transform="matrix(0.14624121,0.32103841,0.32103841,-0.14624121,16.10934,234.76685)">
+            <ns0:text transform="matrix(1,0,0,-1,58.87667,29.51981)" style="font-variant:normal;font-weight:normal;font-size:30px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Regular;writing-mode:lr-tb;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none" id="text1412"><ns0:tspan x="0" y="0" id="tspan1410">1</ns0:tspan></ns0:text>
+          </ns0:g>
+        </ns0:g>
+      </ns0:g>
+    </ns0:g>
+    <ns0:g id="g4812" style="display:inline" transform="translate(-306.13242,-0.54593887)">
+      <ns0:g id="g4022">
+        <ns0:g id="g1566-5" transform="matrix(0.35277777,0,0,-0.35277777,-131.64469,374.31565)">
+          <ns0:g id="g1568-0" clip-path="url(#clipPath1572-6)">
+            <ns0:g id="g1574-6" transform="matrix(1.946459,0,0,1.946459,1102.039,214.8304)">
+              <ns0:path d="M 72.02966,199.634 166.9909,14.61273" style="fill:none;stroke:#808080;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:5.55, 2.4;stroke-dashoffset:0;stroke-opacity:1" id="path1576-5" />
+            </ns0:g>
+          </ns0:g>
+        </ns0:g>
+        <ns0:g id="g3997">
+          <ns0:g id="g1780" transform="matrix(0.16284265,0.31294477,0.31294477,-0.16284265,365.33024,297.20562)">
+            <ns0:text transform="matrix(1,0,0,-1,0,29.51981)" style="font-style:italic;font-variant:normal;font-size:30px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Italic;writing-mode:lr-tb;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none" id="text1784"><ns0:tspan x="0" y="0" id="tspan1782">Q</ns0:tspan></ns0:text>
+          </ns0:g>
+          <ns0:g id="g1786" transform="matrix(0.16284265,0.31294477,0.31294477,-0.16284265,365.33024,297.20562)">
+            <ns0:text transform="matrix(1,0,0,-1,29.99333,29.51981)" style="font-variant:normal;font-weight:normal;font-size:30px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Regular;writing-mode:lr-tb;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none" id="text1790"><ns0:tspan x="0" y="0" id="tspan1788">=</ns0:tspan></ns0:text>
+          </ns0:g>
+          <ns0:g id="g1792" transform="matrix(0.16284265,0.31294477,0.31294477,-0.16284265,365.33024,297.20562)">
+            <ns0:text transform="matrix(1,0,0,-1,58.87667,29.51981)" style="font-variant:normal;font-weight:normal;font-size:30px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Regular;writing-mode:lr-tb;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none" id="text1796"><ns0:tspan x="0" y="0" id="tspan1794">&#8722;</ns0:tspan></ns0:text>
+          </ns0:g>
+          <ns0:g id="g1798" transform="matrix(0.16284265,0.31294477,0.31294477,-0.16284265,365.33024,297.20562)">
+            <ns0:text transform="matrix(1,0,0,-1,86.09333,29.51981)" style="font-variant:normal;font-weight:normal;font-size:30px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Regular;writing-mode:lr-tb;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none" id="text1802"><ns0:tspan x="0" y="0" id="tspan1800">1</ns0:tspan></ns0:text>
+          </ns0:g>
+          <ns0:g id="g1804" transform="matrix(0.16284265,0.31294477,0.31294477,-0.16284265,365.33024,297.20562)">
+            <ns0:text transform="matrix(1,0,0,-1,102.76,29.51981)" style="font-variant:normal;font-weight:normal;font-size:30px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Regular;writing-mode:lr-tb;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none" id="text1808"><ns0:tspan x="0" y="0" id="tspan1806">/</ns0:tspan></ns0:text>
+          </ns0:g>
+          <ns0:g id="g1810" transform="matrix(0.16284265,0.31294477,0.31294477,-0.16284265,365.33024,297.20562)">
+            <ns0:text transform="matrix(1,0,0,-1,112.7667,29.51981)" style="font-variant:normal;font-weight:normal;font-size:30px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Regular;writing-mode:lr-tb;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none" id="text1814"><ns0:tspan x="0" y="0" id="tspan1812">3</ns0:tspan></ns0:text>
+          </ns0:g>
+        </ns0:g>
+      </ns0:g>
+      <ns0:g id="g4067">
+        <ns0:g id="g1566" transform="matrix(0.35277777,0,0,-0.35277777,-79.39554,372.25565)">
+          <ns0:g id="g1568" clip-path="url(#clipPath1572)">
+            <ns0:g id="g1574" transform="matrix(1.946459,0,0,1.946459,1102.039,214.8304)">
+              <ns0:path d="M 72.02966,199.634 166.9909,14.61273" style="fill:none;stroke:#808080;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:5.55, 2.4;stroke-dashoffset:0;stroke-opacity:1" id="path1576" />
+            </ns0:g>
+          </ns0:g>
+        </ns0:g>
+        <ns0:g id="g4042">
+          <ns0:g id="g1836" transform="matrix(0.16284265,0.31294477,0.31294477,-0.16284265,411.73815,293.25161)">
+            <ns0:text transform="matrix(1,0,0,-1,0,29.51981)" style="font-style:italic;font-variant:normal;font-size:30px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Italic;writing-mode:lr-tb;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none" id="text1840"><ns0:tspan x="0" y="0" id="tspan1838">Q</ns0:tspan></ns0:text>
+          </ns0:g>
+          <ns0:g id="g1842" transform="matrix(0.16284265,0.31294477,0.31294477,-0.16284265,411.73815,293.25161)">
+            <ns0:text transform="matrix(1,0,0,-1,29.99333,29.51981)" style="font-variant:normal;font-weight:normal;font-size:30px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Regular;writing-mode:lr-tb;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none" id="text1846"><ns0:tspan x="0" y="0" id="tspan1844">=</ns0:tspan></ns0:text>
+          </ns0:g>
+          <ns0:g id="g1848" transform="matrix(0.16284265,0.31294477,0.31294477,-0.16284265,411.73815,293.25161)">
+            <ns0:text transform="matrix(1,0,0,-1,58.87667,29.51981)" style="font-variant:normal;font-weight:normal;font-size:30px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Regular;writing-mode:lr-tb;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none" id="text1852"><ns0:tspan x="0" y="0" id="tspan1850">+</ns0:tspan></ns0:text>
+          </ns0:g>
+          <ns0:g id="g1854" transform="matrix(0.16284265,0.31294477,0.31294477,-0.16284265,411.73815,293.25161)">
+            <ns0:text transform="matrix(1,0,0,-1,86.09333,29.51981)" style="font-variant:normal;font-weight:normal;font-size:30px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Regular;writing-mode:lr-tb;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none" id="text1858"><ns0:tspan x="0" y="0" id="tspan1856">2</ns0:tspan></ns0:text>
+          </ns0:g>
+          <ns0:g id="g1860" transform="matrix(0.16284265,0.31294477,0.31294477,-0.16284265,411.73815,293.25161)">
+            <ns0:text transform="matrix(1,0,0,-1,102.76,29.51981)" style="font-variant:normal;font-weight:normal;font-size:30px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Regular;writing-mode:lr-tb;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none" id="text1864"><ns0:tspan x="0" y="0" id="tspan1862">/</ns0:tspan></ns0:text>
+          </ns0:g>
+          <ns0:g id="g1866" transform="matrix(0.16284265,0.31294477,0.31294477,-0.16284265,411.73815,293.25161)">
+            <ns0:text transform="matrix(1,0,0,-1,112.7667,29.51981)" style="font-variant:normal;font-weight:normal;font-size:30px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Regular;writing-mode:lr-tb;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none" id="text1870"><ns0:tspan x="0" y="0" id="tspan1868">3</ns0:tspan></ns0:text>
+          </ns0:g>
+        </ns0:g>
+      </ns0:g>
+    </ns0:g>
+  </ns0:g>
+  </ns0:svg>

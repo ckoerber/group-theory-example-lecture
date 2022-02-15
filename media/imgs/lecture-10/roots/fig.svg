@@ -1,3 +1,81 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:88372be70b229dd7d3bd31b636084ac859d8c3a42925ec008b113aca8ebe7d64
-size 9880
+<ns0:svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" xmlns:ns2="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns4="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="169.72389mm" height="165.35342mm" viewBox="0 0 169.72389 165.35342" version="1.1" id="svg5026" ns1:version="1.0.1 (3bc2e813f5, 2020-09-07)" ns2:docname="roots.svg">
+  <ns0:defs id="defs5020">
+    <ns0:marker style="overflow:visible" id="marker1951" refX="0" refY="0" orient="auto" ns1:stockid="Arrow2Mstart" ns1:isstock="true">
+      <ns0:path transform="scale(0.6)" d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z" style="fill:#0000ff;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1" id="path1949" />
+    </ns0:marker>
+    <ns0:marker style="overflow:visible" id="marker1797" refX="0" refY="0" orient="auto" ns1:stockid="Arrow2Mstart" ns1:isstock="true">
+      <ns0:path transform="scale(0.6)" d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z" style="fill:#0000ff;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1" id="path1795" />
+    </ns0:marker>
+    <ns0:marker style="overflow:visible" id="marker1283" refX="0" refY="0" orient="auto" ns1:stockid="Arrow2Lstart" ns1:isstock="true">
+      <ns0:path transform="matrix(1.1,0,0,1.1,1.1,0)" d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z" style="fill:#0000ff;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1" id="path1281" />
+    </ns0:marker>
+    <ns0:marker style="overflow:visible" id="marker1225" refX="0" refY="0" orient="auto" ns1:stockid="Arrow2Lstart" ns1:isstock="true">
+      <ns0:path transform="matrix(1.1,0,0,1.1,1.1,0)" d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z" style="fill:#0000ff;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1" id="path1223" />
+    </ns0:marker>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1688">
+      <ns0:path d="m 1462.078,338.0218 h 40.3701 v 45.72888 h -40.3701 z" id="path1686" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1714">
+      <ns0:path d="m 1020.341,143.6844 h 434.4049 V 578.0893 H 1020.341 Z" id="path1712" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1750">
+      <ns0:path d="m 1222.968,577.0894 h 42.5285 v 45.72888 h -42.5285 z" id="path1748" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1834">
+      <ns0:path d="m 1849.211,678.2247 h 40.3701 v 45.72888 h -40.3701 z" id="path1832" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1860">
+      <ns0:path d="m 1723.31,743.9578 h 70.2312 v 44.1984 H 1723.31 Z" id="path1858" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1898">
+      <ns0:path d="m 1500.448,743.9578 h 70.2312 v 44.1984 h -70.2312 z" id="path1896" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1936">
+      <ns0:path d="m 1651.193,609.1888 h 70.2312 v 44.1984 h -70.2312 z" id="path1934" />
+    </ns0:clipPath>
+    <ns0:clipPath clipPathUnits="userSpaceOnUse" id="clipPath1974">
+      <ns0:path d="M 0,0 H 1920 V 1080 H 0 Z" id="path1972" />
+    </ns0:clipPath>
+    <ns0:marker style="overflow:visible" id="Arrow2Mstart" refX="0" refY="0" orient="auto" ns1:stockid="Arrow2Mstart" ns1:isstock="true">
+      <ns0:path transform="scale(0.6)" d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z" style="fill:#71c837;fill-opacity:1;fill-rule:evenodd;stroke:#71c837;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1" id="path8489" />
+    </ns0:marker>
+    <ns0:marker style="overflow:visible" id="Arrow2Mstart-1" refX="0" refY="0" orient="auto" ns1:stockid="Arrow2Mstart" ns1:isstock="true" ns1:collect="always">
+      <ns0:path transform="scale(0.6)" d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z" style="fill:#806600;fill-opacity:1;fill-rule:evenodd;stroke:#806600;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1" id="path8489-7" />
+    </ns0:marker>
+    <ns0:marker style="overflow:visible" id="Arrow2Lstart" refX="0" refY="0" orient="auto" ns1:stockid="Arrow2Lstart" ns1:isstock="true">
+      <ns0:path transform="matrix(1.1,0,0,1.1,1.1,0)" d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z" style="fill:#0000ff;fill-opacity:1;fill-rule:evenodd;stroke:#0000ff;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1" id="path8483" />
+    </ns0:marker>
+    <ns0:marker style="overflow:visible" id="Arrow2Mstart-7" refX="0" refY="0" orient="auto" ns1:stockid="Arrow2Mstart" ns1:isstock="true">
+      <ns0:path transform="scale(0.6)" d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z" style="fill:#71c837;fill-opacity:1;fill-rule:evenodd;stroke:#71c837;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1" id="path8489-4" />
+    </ns0:marker>
+    <ns0:marker style="overflow:visible" id="Arrow2Mstart-0" refX="0" refY="0" orient="auto" ns1:stockid="Arrow2Mstart" ns1:isstock="true">
+      <ns0:path transform="scale(0.6)" d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z" style="fill:#71c837;fill-opacity:1;fill-rule:evenodd;stroke:#71c837;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1" id="path8489-0" />
+    </ns0:marker>
+  </ns0:defs>
+  <ns2:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" ns1:pageopacity="0.0" ns1:pageshadow="2" ns1:zoom="1.4" ns1:cx="192.39483" ns1:cy="320.96434" ns1:document-units="mm" ns1:current-layer="layer4" ns1:document-rotation="0" showgrid="false" ns1:window-width="1986" ns1:window-height="1199" ns1:window-x="110" ns1:window-y="65" ns1:window-maximized="0" />
+  <ns0:metadata id="metadata5023">
+    <rdf:RDF>
+      <ns4:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </ns4:Work>
+    </rdf:RDF>
+  </ns0:metadata>
+  <ns0:g ns1:label="fig" ns1:groupmode="layer" id="layer1" transform="translate(134.42549,74.530826)" style="display:inline" ns2:insensitive="true">
+    <ns0:g id="g7355">
+      <ns0:g id="g7331">
+        <ns0:text style="font-style:italic;font-variant:normal;font-size:13.4056px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Italic;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778" id="text1700" x="21.86953" y="18.560764"><ns0:tspan x="21.86953" y="18.560764" id="tspan1698" style="stroke-width:0.352778">H</ns0:tspan></ns0:text>
+        <ns0:text style="font-variant:normal;font-weight:normal;font-size:9.51794px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778" id="text1706" x="31.54834" y="21.912153"><ns0:tspan x="31.54834" y="21.912153" id="tspan1704" style="stroke-width:0.352778">1</ns0:tspan></ns0:text>
+        <ns0:path d="M -134.42549,14.198497 H 18.110103" style="fill:none;stroke:#000000;stroke-width:0.367392;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" id="path1718" />
+        <ns0:path d="m 14.436091,14.198497 -1.469214,1.469213 5.143226,-1.469213 -5.143226,-1.469214 z" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.391885;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" id="path1722" />
+      </ns0:g>
+      <ns0:g id="g7339">
+        <ns0:path d="M -57.801394,90.822592 V -61.713001" style="fill:none;stroke:#000000;stroke-width:0.367391;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" id="path1726" />
+        <ns0:path d="m -57.801394,-58.038988 1.469213,1.47117 -1.469213,-5.145183 -1.469214,5.145183 z" style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.391883;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" id="path1730" />
+        <ns0:text style="font-style:italic;font-variant:normal;font-size:13.4056px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Italic;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778" id="text1762" x="-62.483166" y="-65.77697"><ns0:tspan x="-62.483166" y="-65.77697" id="tspan1760" style="stroke-width:0.352778">H</ns0:tspan></ns0:text>
+        <ns0:text style="font-variant:normal;font-weight:normal;font-size:9.51794px;font-family:STIXGeneral;-inkscape-font-specification:STIXGeneral-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778" id="text1768" x="-52.804352" y="-62.425583"><ns0:tspan x="-52.804352" y="-62.425583" id="tspan1766" style="stroke-width:0.352778">2</ns0:tspan></ns0:text>
+      </ns0:g>
+    </ns0:g>
+  </ns0:g>
+  </ns0:svg>
