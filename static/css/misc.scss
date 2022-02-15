@@ -1,0 +1,59 @@
+.katex.inline {
+    margin-left: 0!important;
+}
+
+.katex {
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+section.develop {
+    border: 4px;
+    border-style: solid;
+}
+
+.scrollable {
+    bottom: 0;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin: 30px;
+    padding: 20px;
+}
+
+.bg-info {
+    background-color: rgba(91, 192, 222, 0.5);
+}
+
+.p-v-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.m-v-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: underline!important;
+}
+
+a.reference,
+a.reference-like {
+    border: 1px;
+    background-color: rgba(92, 184, 92, 0.7);
+    font-size: 0.4em;
+    font-weight: 300;
+    color: white;
+    padding: 1px;
+}

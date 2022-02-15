@@ -1,0 +1,46 @@
+.reveal .slides section .fragment.highlight-bg-danger,
+.reveal .slides section .fragment.highlight-bg-info,
+.reveal .slides section .fragment.highlight-bg-success,
+.reveal .slides section .fragment.highlight-bg-warning,
+.reveal .slides section .fragment.highlight-current-bg-danger,
+.reveal .slides section .fragment.highlight-current-bg-info,
+.reveal .slides section .fragment.highlight-current-bg-success,
+.reveal .slides section .fragment.highlight-current-bg-warning {
+    opacity: 1;
+    visibility: inherit;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.reveal .slides section .fragment.highlightbg-success.visible {
+    background-color: rgba(92, 184, 92, 0.4);
+}
+
+.reveal .slides section .fragment.highlight-current-bg-success.current-fragment {
+    background-color: rgba(92, 184, 92, 0.4);
+}
+
+.reveal .slides section .fragment.highlight-bg-info.visible {
+    background-color: rgba(91, 192, 222, 0.4);
+}
+
+.reveal .slides section .fragment.highlight-current-bg-info.current-fragment {
+    background-color: rgba(91, 192, 222, 0.4);
+}
+
+.reveal .slides section .fragment.highlight-bg-warning.visible {
+    background-color: rgba(240, 173, 78, 0.4);
+}
+
+.reveal .slides section .fragment.highlight-current-bg-warning.current-fragment {
+    background-color: rgba(240, 173, 78, 0.4);
+}
+
+.reveal .slides section .fragment.highlight-bg-danger.visible {
+    background-color: rgba(217, 83, 79, 0.4);
+}
+
+.reveal .slides section .fragment.highlight-current-bg-danger.current-fragment {
+    background-color: rgba(217, 83, 79, 0.4);
+}

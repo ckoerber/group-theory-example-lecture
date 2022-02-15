@@ -1,0 +1,93 @@
+.footer {
+    position: absolute;
+    display: table;
+    width: 100%;
+    bottom: 0;
+    color: $mainColor;
+}
+
+.footer span {
+    display: table-cell;
+    padding: 5px;
+    text-align: center;
+    font-size: 0.5em;
+}
+
+.footer span:nth-of-type(1) {
+    text-align: left;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    text-align: left;
+}
+
+.reveal p {
+    margin-top: 0;
+}
+
+h1,
+h2 {
+    text-transform: uppercase!important;
+}
+
+.reveal dl,
+.reveal ol,
+.reveal ul {
+    display: block;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+ul li ul li {
+    font-weight: lighter;
+}
+
+ul li ol li {
+    font-weight: lighter;
+}
+
+ol li ul li {
+    font-weight: lighter;
+}
+
+ol li ol li {
+    font-weight: lighter;
+}
+
+ul li ul {
+    margin: 0;
+    padding: 0;
+}
+
+em {
+    font-size: 0.8em;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.reminder {
+    font-size: 0.7em;
+    font-weight: 200;
+    background-color: rgba(229, 253, 203, 0.5);
+    padding: 10px;
+    display:inline-block;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: 0px;
+    margin-top: 0;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.definition {
+    color: rgb(59, 150, 92);
+}

@@ -1,0 +1,21 @@
+@import "../../node_modules/reveal.js/css/theme/template/mixins";
+@import "../../node_modules/reveal.js/css/theme/template/settings";
+@import "fonts";
+$mainFont: 'RUB-Flama', 'SourceSansPro', sans-serif;
+$mainFontSize: 36px;
+$mainColor: #003560;
+$headingFont: 'RUB-Scala', 'Tinos', Impact, serif;
+$headingFontWeight: 700;
+$headingColor: #003560;
+$headingTextShadow: none;
+$headingTextTransform: none;
+$backgroundColor: #fff;
+$linkColor: #00008B;
+$linkColorHover: lighten($linkColor, 20%);
+$selectionBackgroundColor: rgba(0, 0, 0, 0.99); // Change text colors against dark slide backgrounds
+@import "../../node_modules/reveal.js/css/theme/template/theme"; // Custom overrides
+@import "elements";
+@import "layout";
+@import "fragments";
+@import "misc";
+@import "colors";
