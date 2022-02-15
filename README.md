@@ -1,6 +1,6 @@
 # Group Theory in Nuclear and Particle Physics Example Lecture
 
-These slides were presented in the weekly "Group Theory in Nuclear and Particle Physics" lecture (the 10th lecture) at Ruhr-University Bochum during the winter semester of 21/22.
+These slides were presented in the weekly *"Group Theory in Nuclear and Particle Physics"* lecture (the 10th lecture) at Ruhr-University Bochum during the winter semester of 21/22.
 The lecture is a master's level course for physicists and mathematicians.
 This repository demonstrates how this framework was used.
 
@@ -12,7 +12,7 @@ These slides contain dynamic elements such as
 
 The slides are based on the [reveal.js framework](https://revealjs.com/), were created using open-source tools only, and are under version control (this repository stores the entire presentation).
 
-More details can be found in the documentation.
+More details can be found in the [documentation](https://ckoerber.github.io/group-theory-example-lecture/docs/).
 
 ## Run
 
@@ -27,4 +27,4 @@ python3 -m http.server
 # or
 npx  http-server
 ```
-and visiting http://{ip-address}:8000/ (where the IP-address is usually `127.0.0.1`, `localhost`, or `0.0.0.0`; the above command tells you where to look).
+and visiting [http://{ip-address}:8000/](http://0.0.0.0:8000/) (where the IP-address is usually `127.0.0.1`, `localhost`, or `0.0.0.0`; the above command tells you where to look).
