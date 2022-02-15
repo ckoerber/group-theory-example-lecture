@@ -1,9 +1,8 @@
-site_name: Docs for Lecture based on reveal.js
+site_name: Docs for lecture based on reveal.js
 site_url: https://ckoerber.github.io/group-theory-example-lecture
 repo_url: https://github.com/ckoerber/group-theory-example-lecture/
 site_author: Christopher Körber
 nav:
     - Home: index.md
-    - About: about.md
 docs_dir: doc-src
 site_dir: docs
