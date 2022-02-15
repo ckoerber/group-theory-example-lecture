@@ -9,3 +9,4 @@ build/
 *.pdf
 *.cropped.mp4
 media/audio/**/fragments
+*.ipynb_checkpoints
