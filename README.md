@@ -1,8 +1,10 @@
 # Group Theory in Nuclear and Particle Physics Example Lecture
 
-These slides were presented in the weekly *"Group Theory in Nuclear and Particle Physics"* lecture (the 10th lecture) at Ruhr-University Bochum during the winter semester of 21/22.
+This repository contains slides which were presented in the weekly *"Group Theory in Nuclear and Particle Physics"* lecture (the 10th lecture) at Ruhr-University Bochum during the winter semester of 21/22.
 The lecture is a master's level course for physicists and mathematicians.
 This repository demonstrates how this framework was used.
+
+You can access the slides under this link: [ckoerber.github.io/group-theory-example-lecture](https://ckoerber.github.io/group-theory-example-lecture/)
 
 ## Features
 These slides contain dynamic elements such as
