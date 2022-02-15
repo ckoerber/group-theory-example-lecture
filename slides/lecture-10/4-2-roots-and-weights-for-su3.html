@@ -1,0 +1,181 @@
+<section>
+  <h1>IV The highest-weight construction scheme</h1>
+  <h2>IV.2 Roots and weights for $su(3)$</h2>
+</section>
+
+<section>
+  <h2>Gell-Mann matices</h2>
+  <ul>
+    <li>
+      <p>The <a href="https://en.wikipedia.org/wiki/Gell-Mann_matrices" target="_blank"><b class="definition">Gell-Mann matrices</b></a> are defined by</p>
+      <p>$$\scriptsize
+        \begin{aligned}
+        \lambda_{1}&=\begin{pmatrix}
+        0 & 1 & 0 \\
+        1 & 0 & 0 \\
+        0 & 0 & 0
+        \end{pmatrix} & \lambda_{2}&=\begin{pmatrix}
+        0 & -i & 0 \\
+        i & 0 & 0 \\
+        0 & 0 & 0
+        \end{pmatrix} & \lambda_{3}&=\begin{pmatrix}
+        1 & 0 & 0 \\
+        0 & -1 & 0 \\
+        0 & 0 & 0
+        \end{pmatrix} &
+        \lambda_{4}&=\begin{pmatrix}
+        0 & 0 & 1 \\
+        0 & 0 & 0 \\
+        1 & 0 & 0
+        \end{pmatrix} \\ \lambda_{5}&=\begin{pmatrix}
+        0 & 0 & -i \\
+        0 & 0 & 0 \\
+        i & 0 & 0
+        \end{pmatrix} &
+        \lambda_{6}&=\begin{pmatrix}
+        0 & 0 & 0 \\
+        0 & 0 & 1 \\
+        0 & 1 & 0
+        \end{pmatrix} & \lambda_{7}&=\begin{pmatrix}
+        0 & 0 & 0 \\
+        0 & 0 & -i \\
+        0 & i & 0
+        \end{pmatrix} & \lambda_{8}&=\frac{1}{\sqrt{3}}\begin{pmatrix}
+        1 & 0 & 0 \\
+        0 & 1 & 0 \\
+        0 & 0 & -2
+        \end{pmatrix}
+        \end{aligned}
+        $$
+      </p>
+    </li>
+    <li class="fragment">
+      <p>They can be viewed as a generalization of the Pauli matrices to three dimensions width</p>
+      <p class="text-center">$\lambda_{a}=\begin{pmatrix}
+        \sigma_{a} & 0 \\
+        0 & 0
+        \end{pmatrix}$ for $a =1,2,3$</p>
+    </li>
+    <li class="fragment">
+      <p>The $su(3)$ algebra can be defined by identifying a 3-dimensional representation with these matrices</p>
+      <p class="text-center">$D^{(3d)}(\hat \Lambda_a) = \lambda_a / 2$ for $\hat \Lambda_a \in su(3)$</p>
+      <p><em>The structure constants are defined by the matrix commutator of these matrices and the Killing form simplifies to $\small \mathrm{tr}\left[D^{(3d)}(\hat \Lambda_a)D^{(3d)}(\hat \Lambda_b)\right] = \delta_{ab}/2$</em></p>
+    </li>
+    <li class="fragment">
+      <p><em>The rank of $su(3)$ is two and we can thus diagonalize two generators at once.</em><br>It is convenient to choose the <em>general</em> $su(3)$ Cartan subalgebra</p>
+      <p class="text-center">$C = \left\{ \hat H_1 \equiv \hat T_3 , \hat H_2 \equiv \hat T_8\right\}$</p>
+      <p><em>In the above representation, these matrices are already diagonal.</em></p>
+    </li>
+  </ul>
+</section>
+
+<section>
+  <div class="grid">
+    <div class="col-7">
+      <h2>$SU(3)$ Roots & weights</h2>
+    </div>
+    <div class="col-5">
+      <div class="reminder">
+        <p>$$\footnotesize C = \left\{ \hat H_1 \rightarrow \frac{1}{2} \begin{pmatrix}
+          1 & 0 & 0 \\
+          0 & -1 & 0 \\
+          0 & 0 & 0
+          \end{pmatrix} , \hat H_2 \rightarrow \frac{1}{2\sqrt{3}}\begin{pmatrix}
+          1 & 0 & 0 \\
+          0 & 1 & 0 \\
+          0 & 0 & -2
+          \end{pmatrix}\right\}$$</p>
+      </div>
+    </div>
+  </div>
+  <div class="grid">
+    <div class="col-8">
+      <ul class="m-y-0">
+        <li>
+          <p>We can compute the eigenvalues of matrices in the Cartan subalgebra to obtain the weights of this representation
+          </p>
+          <p class="text-center">$\small \hat H_i |\mathrm{3d}; \vec \mu^{[j]} \rangle = \mu^{[j]}_i |\mathrm{3d}; \vec \mu^{[j]} \rangle \Leftrightarrow D^{(3d)}(\hat H_i) \bold{v}^{[j]} = \mu^{[j]}_i \bold{v}^{[j]} $
+          </p>
+          <ol class="m-y-0">
+            <li class="fragment" data-fragment-index="1">
+              <p>
+                $\small
+                \bold{v}^{[1]}=\begin{pmatrix}
+                1, &
+                0, &
+                0
+                \end{pmatrix}^T \Rightarrow \vec{\mu}^{[1]}=\frac{1}{2}\begin{pmatrix}
+                +1, &
+                \frac{1}{\sqrt{3}}
+                \end{pmatrix}^T $
+              </p>
+            </li>
+            <li class="fragment" data-fragment-index="2">
+              <p>
+                $\small
+                \bold{v}^{[2]}=\begin{pmatrix}
+                0, &
+                1, &
+                0
+                \end{pmatrix}^T \Rightarrow \vec{\mu}^{[2]}=\frac{1}{2}\begin{pmatrix}
+                -1, &
+                \frac{1}{\sqrt{3}}
+                \end{pmatrix}^T $
+              </p>
+            </li>
+            <li class="fragment" data-fragment-index="3">
+              <p>
+                $\small
+                \bold{v}^{[3]}=\begin{pmatrix}
+                0, &
+                0, &
+                1
+                \end{pmatrix}^T \Rightarrow \vec{\mu}^{[3]}=-\begin{pmatrix}
+                +0, &
+                \frac{1}{\sqrt{3}}
+                \end{pmatrix}^T
+                $
+              </p>
+            </li>
+          </ol>
+        </li>
+      </ul>
+    </div>
+    <div class="col-4">
+      <img class="fragment"  data-fragment-index="4" src="media/imgs/lecture-10/weights.svg" alt="3d rep su(3) weights in H1 H2 plane." height="350">
+    </div>
+  </div>
+  <div class="grid">
+    <div class="col-8">
+      <ul>
+        <li class="fragment" data-fragment-index="5">
+          <p>Roots must take one weight vector to another weight vector. <br><em>We can take differences of weight vectors to find roots.</em></p>
+          <ol class="m-y-0">
+            <li class="fragment" data-fragment-index="6">$\vec{\alpha}^{[1]}=\vec{\mu}^{[1]}-\vec{\mu}^{[3]}=\frac{1}{2}\begin{pmatrix}
+              1, &
+              +\sqrt{3}\end{pmatrix}^T$</li>
+            <li class="fragment" data-fragment-index="7">$\vec{\alpha}^{[2]}=\vec{\mu}^{[3]}-\vec{\mu}^{[2]}=\frac{1}{2}\begin{pmatrix}
+              1, &
+              -\sqrt{3}
+              \end{pmatrix}^T$</li>
+            <li class="fragment" data-fragment-index="8">$\vec{\alpha}^{[3]}=\vec{\mu}^{[1]}-\vec{\mu}^{[2]}$</li>
+          </ol>
+          <ul>
+            <li class="fragment" data-fragment-index="9">Some roots are linearly dependent $\vec{\alpha}^{[3]}=\vec{\alpha}^{[1]}+\vec{\alpha}^{[2]}$ or $\vec{\alpha}^{[1]}=-\vec{\alpha}^{[7]}$</li>
+            <li class="fragment" data-fragment-index="10">For some of the root vectors, <i>raising</i> $\hat H_1$ components <i>lowers</i> $\hat H_2$ components and vice versa</li>
+            <li class="fragment" data-fragment-index="11">Are all of these roots? And are ther more choices?</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="col-4">
+      <div class="r-stack">
+        <img class="fragment" data-fragment-index="5" src="media/imgs/lecture-10/roots/fig.svg" height="350">
+        <img class="fragment" data-fragment-index="6" src="media/imgs/lecture-10/roots/alpha1.svg" height="350">
+        <img class="fragment" data-fragment-index="7" src="media/imgs/lecture-10/roots/alpha2.svg" height="350">
+        <img class="fragment" data-fragment-index="8" src="media/imgs/lecture-10/roots/alpha3.svg" height="350">
+        <img class="fragment" data-fragment-index="9" src="media/imgs/lecture-10/roots/other-alphas.svg" height="350">
+      </div>
+    </div>
+  </div>
+</section>

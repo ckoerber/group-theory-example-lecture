@@ -1,0 +1,309 @@
+<section>
+  <h1>IV The highest-weight construction scheme</h1>
+  <h2>IV.1 Roots and weights</h1>
+</section>
+
+<section>
+  <div class="grid">
+    <div class="col-6">
+      <h3>Weights</h3>
+      <ul>
+        <li>
+          <p><b class="definition">Cartan generators</b> are the maximal set $C \sub A$ of linearly independent generators which commute</p>
+          <p>$$\left[\hat{H}_{i}, \hat{H}_{j}\right]=0, \quad \forall \hat{H}_{i}, \hat{H}_{j} \in C \subset A$$</p>
+        </li>
+      </ul>
+    </div>
+    <div class="col-6 align-right">
+      <div class="reminder" style="font-size:0.7em;">
+        <ul class="fragment" data-fragment-index=1>
+          <li>
+            <p>A <b>nilpontent</b> algebra $C$ is a set of generators which envetually terminates under commutation</p>
+            <p>$\small \left[\hat H_{1},\left[\hat H_{2},\left[\cdots\left[\hat H_{n-1}, \hat H_{n}\right] \right]\right]\right. = 0$ for $\hat H_n \in C$</p>
+          </li>
+          <li>
+            <p>A <b>self-normalizng</b> subalgebra $C \sub A$ is a set of generators which fulfill</p>
+            <p class="text-center">If $[\hat H_i, \hat X] \in C$ for all $\hat H_i \in C$ then also $\hat X \in C$</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <ul>
+    <li class="fragment" data-fragment-index=1>
+      <p>Note that:</p>
+      <ul>
+        <li>Linear independence is technically only defined once we introduce a representation; This choice is still unambiguous; for different choices you still get the same result.</li>
+        <li>More mathematically: Cartan subalgebras are nilpotent subalgebras that are self-normalising.</li>
+        <li>The Cartan subalgebra for $su(2)$ is $C = \{ \hat J_3 \}$ <em>(has rank 1)</em>.</li>
+      </ul>
+    </li>
+    <li class="fragment">
+      <p>Because the Cartan generators form a subalgebra, one can find a normalized basis
+        <br><em>Find a similarity transformation such that $\hat H_i \to S^{-1}\hat H_i S $ are properly normalized in the Killing form</em></p>
+      <p>$$\operatorname{tr}\left[
+        D^{(\mathrm{adj})\dagger}\left(\hat H_{i}\right)
+        D^{(\mathrm{adj})}\left(\hat H_{j}\right)
+        \right]=k_{\mathrm{adj}} \delta_{i j}, \quad \forall i, j=1, \cdots, m$$</p>
+    </li>
+    <li class="fragment">
+      <p>After applying this similarity transformation, we use the eigenvalues of the Cartan generators to label our basis</p>
+      <p class="text-center">$\hat{H}_{i}|D; \vec \mu \rangle = \mu_i |D; \vec \mu \rangle $ for $i=1, \cdots , m$
+      </p>
+      <ul>
+        <li>The eigenvalues are called <b class="definition">weights</b> (that’s where the name highest-weight scheme is coming from).</li>
+        <li>For $su(N)$, they are all real because the generators are Hermitian.</li>
+        <li>The vector $\vec \mu \equiv \mu$ with components $\mu_i$ is called weight vector.</li>
+      </ul>
+    </li>
+  </ul>
+</section>
+
+<section>
+  <div class="grid">
+    <div class="col-5">
+      <h2>Revisiting the adjoint representation</h2>
+    </div>
+    <div class="col-7">
+      <div class="reminder">
+        <ul class="">
+          <li>
+            <p><b>Structure constants</b> define the commutation relations of an algebra</p>
+            <p>$$\left[\hat{X}_{a}, \hat{X}_{b}\right]=i f_{a b c} \hat{X}_{c}$$</p>
+          </li>
+          <li>
+            <p>The <b>adjoint representation</b> is defined by the set of matrices corresponding to structure constatns</p>
+            <p class="text-center">$\left[D^{(\mathrm{adj})}\left(\hat X_{a}\right)\right]_{b c}=-i f_{a b c} \equiv \left[X_{a}^{(\mathrm{adj})}\right]_{bc}$ </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <ul>
+    <li class="fragment">
+      <p>States of the adjoint representation can be directly associated with generators: $ \hat X_a \leftrightarrow |\mathrm{adj}; \hat X_a \rangle$ by
+      </p>
+      $$
+      \small
+      \begin{aligned}
+      \left \langle \mathrm{adj}; \hat X_b \middle| \hat X_a \middle| \mathrm{adj}; \hat X_c \right\rangle
+      &=
+      \left[D^{(\mathrm{adj})}\left(\hat X_{a}\right)\right]_{b c}
+      \\
+      \left \langle \mathrm{adj}; \hat X_a \middle| \mathrm{adj}; \hat X_b \right\rangle
+      &= \frac{1}{k_{\mathrm{adj}}} \mathrm{tr}\left[
+      D^{(\mathrm{adj}) \dagger}\left(\hat X_{a}\right) D^{(\mathrm{adj})}\left(\hat X_{b}\right)
+      \right]=\delta_{b a}
+      \end{aligned}
+      $$
+      <p>
+    </li>
+  </ul>
+  <div class="grid">
+    <div class="col-7">
+      <ul>
+        <li class="fragment">
+          <p>Because representations are linear, this allows to associate algebra computations <em>(LHS)</em> with state-space computations <em>(RHS)</em>
+          </p>
+          <p class="text-center">
+            $
+            \left|\mathrm{adj}; \alpha \hat X_a + \beta \hat X_b \right\rangle
+            =
+            \alpha \left|\mathrm{adj}; \hat X_a \right\rangle + \beta \left|\mathrm{adj}; \hat X_b \right\rangle
+            $
+            for
+            $\hat X_{a}, \hat X_b \in A$ and $\alpha, \beta \in \mathbb K$
+          </p>
+        </li>
+        <li class="fragment">
+          <p>$\Rightarrow$ The action of a genrator on a state corresponds to computing the commutator in the algebra space
+          </p>
+          <p>
+            $$
+            \hat{X}_{a} \left|\mathrm{adj}; \hat X_b \right\rangle
+            =
+            \left|\mathrm{adj}; [\hat X_a, \hat X_b] \right\rangle
+            $$
+          </p>
+        </li>
+      </ul>
+    </div>
+    <div class="col-5 p-20">
+      <div class="r-stack" style="padding: 10px;">
+        <video class="fragment current-visible" src="media/videos/lecture-10/revisiting-the-adjoint-representation.mp4" controls poster="media/imgs/lecture-10/revisiting-the-adjoint-rep.svg" type="video/mp4">
+        </video>
+        <img class="fragment" src="media/imgs/lecture-10/revisiting-the-adjoint-rep.svg" alt="Final vidoe frame for orthogonality proof.">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Roots</h2>
+  <div class="grid">
+    <div class="col-7">
+      <ul>
+        <li>
+          <p><b class="definition">Roots</b> are the weights <em>(eigenvalues of the Cartan generators)</em> of the adjoint representation</p>
+          <p class="text-center">
+            $\small\hat{H}_{i} \left|\mathrm{adj}; \hat E_{\alpha}\right\rangle = \alpha_{i}\left|\mathrm{adj}; \hat E_{\alpha}\right\rangle$
+            with $\small \hat E_{\alpha} \in A$ for all $\small i = 1, \cdots m$</p>
+          <div class="fragment">
+            <p class="m-y-0">Note that:</p>
+            <ul>
+              <li>An algebra can have more than one root.</li>
+              <li>Roots have specific values uniquely determined by the algebra.</li>
+            </ul>
+          </div>
+        </li>
+        <li class="fragment">
+          <p>Superpositions of Cartan generator states correspond to state with zero root vectors</p>
+          <p class="text-center">
+            $
+            \small
+            \hat H_j \left| \mathrm{adj}; \sum_i c_i \hat H_i \right\rangle
+            =
+            \sum_i c_i \left| \mathrm{adj}; [\hat H_j, \hat H_i] \right\rangle
+            =
+            0
+            $ $\forall \hat H_j \in C$
+          </p>
+          <ul>
+            <li>Note that, <em>(after choosing an approriate normalization constant for the Killing form)</em> Cartan generator states are orthnormal</li>
+          </ul>
+        </li>
+        <li class="fragment">
+          <p>Root states are orthogonal<br>
+            <em>Assuming $\hat E_{\alpha}, \hat E_\beta \neq c_i \hat H_i$ &mdash; or equivalently $\alpha, \beta \neq \vec 0$</em>
+          </p>
+          <p class="m-y-0 text-center">$ \left\langle \mathrm{adj}; \hat E_\alpha \mid \mathrm{adj}; \hat E_\beta \right\rangle \sim \prod\limits_{i=1}^{m} \delta_{\alpha_i \beta_i} $</p>
+          <p><em>I.e., this scalar product is only non-zero, if evaluated for the same roots.</em></p>
+        </li>
+      </ul>
+    </div>
+    <div class="col-5 fragment">
+      <h4>Proof</h4>
+      <div class="r-stack" style="padding: 10px;">
+        <video src="media/videos/lecture-10/orthogonality.mp4" controls poster="media/imgs/lecture-10/orthogonality.jpg" type="video/mp4">
+        </video>
+        <img class="fragment" src="media/imgs/lecture-10/orthogonality.jpg" alt="Final video frame for orthogonality proof.">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="grid">
+    <div class="col-7">
+      <h2>Raising and lowering operators</h2>
+    </div>
+    <div class="col-5">
+      <div class="reminder">
+        <h4>$su(2)$ ladder operator algebra</h4>
+        $$\begin{aligned}
+        \left[\hat{J}_{3}, \hat{J}^{\pm}\right]&=\pm J^{\pm} \,,&
+        \hat{J}^{+\dagger} &=\hat{J}^{-} \,,&
+        \left[\hat{J}^{+}, \hat{J}^{-}\right]&=\hat{J}_{3}
+        \end{aligned}
+        $$
+      </div>
+    </div>
+  </div>
+  <ul>
+    <li>
+      <p><b class="definition">Root generators</b> are "eigenvectors" of Cartan generators under commutation <br><em>And roots are the corresponding "eigenvalues" (this could also be viewed as an alternative definition for roots)</em></p>
+      <p class="text-center">$ \left[\hat{H}_{i}, \hat{E}_{\alpha}\right]=\alpha_{i} \hat{E}_{\alpha} $ for all $i = 1, \cdots , m$</p>
+      <p><em>Note that this is a statement about the algebra, not the adjoint representation (but, of course, they have a one-to-one correspondance)</em></p>
+    </li>
+    <li class="fragment">
+      <p>Generators corresponding to roots are not Hermitian
+        <br><em>Their conjugate changes the sign of the root.</em>
+      </p>
+      <p class="text-center">$\left[\hat{H}_{i}, \hat{E}_{\alpha}^{\dagger}\right]=-\alpha_{i} \hat{E}_{\alpha}^{\dagger}$ and thus $\hat{E}_{+\alpha}^{\dagger}=\hat{E}_{-\alpha}$</p>
+    </li>
+    <li class="fragment">
+      <p>Root generators change weights <em>(for any, not just the adjoint, representation)</em></p>
+      <p>$$\hat{E}_{\pm \alpha}|D; \mu\rangle \sim| D; \mu \pm \alpha,\rangle$$</p>
+      <p><em>Note that the entire weight vector is changed; some components might be raised, some might be lowered.</em></p>
+    </li>
+    <li class="fragment">
+      <p>The commutator of a raising and lowering operator is in the Cartan subalgebra <em>(homework)</em></p>
+      <p>$$\left[\hat{E}_{+\alpha}, \hat{E}_{-\alpha}\right]=\alpha_{i} \hat{H}_{i} \in C$$</p>
+    </li>
+  </ul>
+
+</section>
+
+<section>
+  <div class="grid">
+    <div class="col-6">
+      <h2>Raising and lowering</h2>
+    </div>
+    <div class="col-6">
+      <div class="reminder">
+        <h4>Ladder operator algebra</h4>
+        $$\begin{aligned}
+        \small
+        \left[\hat{J}_{3}, \hat{J}^{\pm}\right]&=\pm J^{\pm} \,,&
+        \hat{J}^{+\dagger} &=\hat{J}^{-} \,,&
+        \left[\hat{J}^{+}, \hat{J}^{-}\right]&=\hat{J}_{3}
+        \\
+        \left[\hat{H}_{i}, \hat{E}_{\alpha}\right]&=\alpha_{i} \hat{E}_{\alpha} \,,&
+        \hat{E}_{+\alpha}^{\dagger}&=\hat{E}_{-\alpha} \,,&
+        \left[\hat{E}_{+\alpha}, \hat{E}_{-\alpha}\right]&=\alpha_{i} \hat{H}_{i}
+        \end{aligned}
+        $$
+      </div>
+    </div>
+  </div>
+  <ul>
+    <li>
+      <p>Root vectors $\alpha$ correspond to unique generators $\hat E_\alpha$ <em>(modulo normalization)</em> </p>
+      <ul>
+        <li>
+          <p>In other words, for a given $\alpha$, <b>we do not find</b> two linearly independent generators $\hat E_\alpha$ and $\hat E_\alpha'$￼ such that</p>
+          <p class="text-center">$[ \hat H_i , \hat E_\alpha ] = \alpha_i \hat E_\alpha$ and $[ \hat H_i , \hat E_\alpha' ] = \alpha_i \hat E_\alpha' \quad \forall i=1, \cdots m $ but $\hat E_\alpha \neq z \hat E_\alpha' $ for $z \in \mathbb C$</p>
+        </li>
+      </ul>
+    </li>
+    <li class="fragment">If $\alpha$￼is a root, then no non-zero multiple of $\alpha$ <em>(except $-\alpha$)</em> is a root</li>
+    <li class="fragment">
+      <p>Note that for the adjoint representation derivation, we explicitly normalized states according to the Killing form. Here, we can normalize operators $ \hat{E}_{\pm \alpha}$ by an overall factor to fulfill the above equations.</p>
+    </li>
+  </ul>
+  <div class="grid">
+    <div class="col-7">
+      <p class="fragment" style="margin-left:80px;"><em>So far, this looks very similar to what we had for <br>$su(2)$ &mdash; modulo normalization factors and vector additions...</em></p>
+      <ul>
+        <li class="fragment">
+          <p>For each non-zero pair of root vectors $(+ \alpha, - \alpha)$￼, we can an $su(2) \sub A$ subalgebra
+          </p>
+          <p class="text-center">$$\hat X_{\pm\alpha} \equiv \frac{\hat E_{\pm \alpha}}{|\alpha|} \quad \text{and} \quad \hat X_{3}(\alpha) \equiv \frac{\alpha_i \hat H_i}{|\alpha|^2}$$</p>
+          <p><em>This corresponds to normalizing the generators so that they fulfill the $su(2)$ algebra.</em>
+          </p>
+        </li>
+      </ul>
+    </div>
+    <div class="col-5">
+      <div class="r-stack" style="padding: 10px;">
+        <video class="fragment current-visible" src="media/videos/lecture-10/lots-of-su2s.mp4" controls poster="media/imgs/lecture-10/lots-of-su2s.svg" type="video/mp4">
+        </video>
+        <img class="fragment" src="media/imgs/lecture-10/lots-of-su2s.svg"></img>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section>
+  <h2>Example: $su(2)$</h2>
+  <ul>
+    <li>Assume we have an algebra determined by the generators $\{\hat J_1, \hat J_2, \hat J_3 \}$ and $[\hat J_a, \hat J_b] = i \epsilon_{abc} \hat J_c$
+    </li>
+  </ul>
+  <div class="r-stack" style="padding: 10px;">
+    <video class="fragment current-visible" src="media/videos/lecture-10/su2-example.mp4" controls poster="media/imgs/lecture-10/su2-example.svg" type="video/mp4">
+    </video>
+    <img class="fragment" src="media/imgs/lecture-10/su2-example.svg" width="90%"></img>
+  </div>
+</section>

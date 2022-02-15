@@ -1,0 +1,65 @@
+<section>
+  <h1>IV The highest-weight construction scheme</h1>
+  <h2>IV.0 Motiation</h1>
+    <img src="media/imgs/lecture-10/su3-multiplets.svg" width="80%"></img>
+</section>
+
+<section>
+  <h2>Motiation</h2>
+  <p class="m-b-0"><i>How can we construct irreducible representations for general simple Lie algebras?</i></p>
+  <p class="m-t-0"><em>(From now on, I will refer to "simple Lie algebras" when saying "algebra")</em></p>
+  <ul>
+    <li class="fragment">For $su(2)$, we have used the highest-weight construction scheme:
+      <ol class="emph">
+        <li>
+          Find the state with largest $\hat J_3$ eigenvalue $|j, m\rangle$ with $m = j$</li>
+        <li>
+          Succesively apply the lowering operator $\hat J^-$ to find other states in this representation
+        </li>
+        <li>
+          Repeat for orthogonal states to obtain the entire basis (other irreps.)
+        </li>
+      </ol>
+    </li>
+    <li class="fragment">
+      <p>If a Lie algebra has higher rank, we can diagonalize two or more generators $\hat H_i$ and thus have more eigenvalues which define a basis</p>
+      <p class="text-center">$\hat{H}_{i}|D; \vec \mu \rangle = \mu_i |D; \vec \mu \rangle $ for $i=1, \cdots , N$
+      </p>
+      <p><em>(From now on $\mu \equiv \vec \mu$)</em></p>
+    </li>
+    <li class="fragment">
+      <p>In this case, the action of lowering operators $\hat X^{-}_a$ may affect several eigenvalues at ones</p>
+      <p>$$ \hat X^{-}_a |D; \vec \mu \rangle = |D; \vec \mu - \vec x_a \rangle$$</p>
+      <p>This action could potentially lower one but raise another eigenvalue</p>
+      <ul>
+        <li>What is a "highest eigenvalue"?</li>
+        <li>How can we ensure to find "all" states?</li>
+      </ul>
+    </li>
+  </ul>
+</section>
+
+<section>
+  <h2>The highest-weight construction scheme</h2>
+  <p class="m-b-0">The generalized scheme for finding all irreps of a given representation of the algebra $A$ will follow the notion we applied to representations of $su(2)$</p>
+  <p class="m-t-0"><em>(As a matter of fact, we will find many sub-$su(2)$s to help us; more on this later)</em></p>
+  <ol>
+    <li class="fragment">
+      <p>Find the maximal set of linearly* independent generators which commute <em>(simultaneously diagonalizable)</em></p>
+      <p>$$\left[\hat{H}_{i}, \hat{H}_{j}\right]=0, \quad \forall \hat{H}_{i}, \hat{H}_{j} \in C \subset A$$</p>
+    </li>
+    <li class="fragment">
+        <p>Find the highest-weight state for a given representation <em>(largest eigenvalue for all generators in $C$)</em></p>
+        <p>$$
+          |D; \mu_{\max{}}\rangle
+          \equiv
+          \left|D; \max \left(\mu_{1}\right), \max \left(\mu_{2}\right), \cdots, \max \left(\mu_{m}\right) \right\rangle $$</p>
+    </li>
+    <li class="fragment"><p>Succesively apply all combinations of existing lowering <b>and</b> raising operators to this state to find the irrep</p>
+      <p>$$
+          |D; \vec \mu_{\max{}} - \vec x_a + \vec x_b + \cdots \rangle = \cdots \hat X_b^+ \hat X_a^-|D; \vec \mu_{\max{}}\rangle
+      $$</p>
+      <p><em>The eventual scheme will tell us how to systematically find all states; this is not entirely "random".</em></p>
+    </li>
+  </ol>
+</section>

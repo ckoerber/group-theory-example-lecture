@@ -1,0 +1,13 @@
+node_modules/
+package-lock.json
+rub.css
+rub.css.map
+artifacts/
+build/
+*.zip
+*_data/
+*.aup
+*.mov
+*.pdf
+*.cropped.mp4
+media/audio/**/fragments
