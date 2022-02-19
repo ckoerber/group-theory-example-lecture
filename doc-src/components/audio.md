@@ -22,6 +22,10 @@ This modularity allows replacing or modifying individual parts at a later point.
 
 ## Steps
 
+Creating and linking the audio files to the presentation works in two steps.
+First, you have to create a presentation without the audio. Second, you have to record the audio and slide transitions ("Live").
+Third, you have to combine the information regarding slide transitions with the recorded audio file ("Post-Processing").
+
 ### Live
 
 1. Start a recording of the presentation.

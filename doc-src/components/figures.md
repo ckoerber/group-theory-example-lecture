@@ -9,9 +9,12 @@ It assumes you already have created or have access to a vector graphic (i.e., a 
 * [`scripts/layer2svg.py`](https://github.com/ckoerber/group-theory-example-lecture/blob/main/scripts/layer2svg.py) (i.e., Python3)
 
 
-## Steps
+## Concept
 
 To me, the most stable solution for animating figures is to include figure elements as individual fragments. This solution does not require additional client-side dependencies and allows a stable PDF export.
+
+## Steps
+
 The essential steps to animate the graphics are:
 
 1. Import the vector graphic to Inkscape.
