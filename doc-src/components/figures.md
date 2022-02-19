@@ -11,13 +11,14 @@ It assumes you already have created or have access to a vector graphic (i.e., a 
 
 ## Steps
 
-To me the most stable solution is to include figure elements as individual fragments. This solution does not require additional client-side dependencies and allows a stable PDF export.
-The essential steps to animate the graphics are
+To me, the most stable solution for animating figures is to include figure elements as individual fragments. This solution does not require additional client-side dependencies and allows a stable PDF export.
+The essential steps to animate the graphics are:
 
 1. Import the vector graphic to Inkscape.
-2. Move animation steps to individual layers and export to `SVG`.
-3. Run `scripts/layer2svg.py` to create individual `SVG` files for each layer.
-4. Include and adjust the corresponding HTML inside your slides.
+2. Move animation steps to individual layers.
+3. Export the layered figure to `SVG`.
+4. Run `scripts/layer2svg.py` to create individual `SVG` files for each layer.
+5. Include and adjust the corresponding HTML inside your slides.
 
 
 ### Move animation steps to individual layers in Inkscape
@@ -26,7 +27,7 @@ Once a file was imported to Inkscape (`File > Open`), the steps are:
 
 1. Open the Layers tab via `Layer > Layers`.
 2. Create a new layer for the next animation step, `Layer > Add layer`.
-3. Select all objects you do not want on the first animation step and move them to the new layer. Depending on the input, it might not directly be possible to select some objects alone; you may have to ungroup them first `Object > Ungroup` (or you may want to group them for easier handling `Object > Group`).
+3. Select all objects you do not want on the first animation step and move them to the new layer (`Layer> Move Selection to Layer Above`). Depending on the input, it might not directly be possible to select some objects alone; you may have to ungroup them first `Object > Ungroup` (or you may want to group them for easier handling `Object > Group`).
 4. Repeat this procedure until you have separated all objects onto their respective animation layer
 5. Export to SVG by `File > Save as` and select the SVG format
 
