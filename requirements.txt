@@ -2,3 +2,7 @@ mkdocs
 click
 pandas
 numpy
+Pillow
+streamlit
+streamlit-cropper
+opencv-python
