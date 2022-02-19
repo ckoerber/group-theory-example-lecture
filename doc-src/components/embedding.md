@@ -2,6 +2,11 @@
 
 Reveal.js integration can be directly embedded into Moodle via the file feature.
 
+## Used tools
+
+* Moodle
+* *(Optional)* the `npm` convenience script `npm run zip:prod` uses some bash tools to streamline the creation of a ZIP file needed for the upload.
+
 ## Steps
 
 1. Zip the entire reveal.js presentation (including media, static, and HTML files).
