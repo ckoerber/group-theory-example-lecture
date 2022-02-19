@@ -23,9 +23,11 @@ The command
 streamlit run scripts/vmanip.py
 ```
 will create a GUI which can be accessed in your browser (see the printed URL).
-
 When following the URL, you can specify a movie, drag-and-drop the boundaries to crop the file, specify a factor to speed up the recording, and eventually copy the corresponding `ffmpeg` command.
-I.e.,
+
+![Example for the `scripts/vmanip.py` GUI](imgs/cropper.png)
+
+For example, for a crop to the box `width:height:x:y` and a speedup of `x1.05`
 ```
 ffmpeg -i media/videos/lecture-10/su2-example.mp4 -filter_complex "[0]setpts=0.95*PTS[b];[b] crop = 3385:2109:37:28[c];[0]atempo=1.05[a]" -map "[c]" -map "[a]" media/videos/lecture-10/su2-example.cropped.mp4
 ```
