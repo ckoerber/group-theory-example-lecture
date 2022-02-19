@@ -8,9 +8,18 @@ Reveal.js integration can be directly embedded into Moolde via the file feature.
 2. Create a file tool in the respective Moodle course and upload the zip.
 3. Unzip the uploaded zip folder in the Moodle tool and specify the `index.html` to be the main file.
     The link to this Moodle file resource will now display the presentation.
-4. [Optional] This resource can also be embedded as an `<iframe>` to be viewed inline.
 
 *Thank you to the [RUB eLearning](https://www.rubel.rub.de/en) support team for the helpful instructions!*
+
+
+### [Optional] Inline embedding
+This resource can also be embedded as an `<iframe>` to be viewed inline.
+I.e., create a `Label` resource and add the following HTML
+```html
+<iframe width="850" height="600" src="https://moodle.{link-to-created-resource}/index.html#/">
+  Fallback text here for unsupporting browsers, of which there are scant few.
+</iframe>
+```
 
 ## Scripts
 
