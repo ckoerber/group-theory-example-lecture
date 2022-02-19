@@ -11,7 +11,7 @@
     "scripts": {
         "clean:prod": "rm -rf build/*",
         "mkdir:prod": "mkdir -p build/static/css && mkdir -p build/static/js",
-        "copy:html": "cp index.html build/ && cp audio.html build/ && rsync -r --verbose --include='slides/*/*.html' --include='*/' --exclude='*' --prune-empty-dirs .  build/",
+        "copy:html": "cp index.html build/ && rsync -r --verbose --include='slides/*/*.html' --include='*/' --exclude='*' --prune-empty-dirs .  build/",
         "copy:static": "rsync -r --verbose --copy-links --exclude='*' --prune-empty-dirs static build/ && cp favicon.ico build/",
         "copy:audio": "rsync -r --relative --verbose --copy-links --prune-empty-dirs media/audio/main/*.mp3 build/",
         "copy:images": "rsync -r --relative --verbose --copy-links --prune-empty-dirs media/imgs build/",
@@ -22,10 +22,8 @@
         "css:prod": "npx sass -s compressed static/css/rub.scss build/static/css/rub.css",
         "fonts:prod": "cp -R static/fonts build/static/",
         "js:prod": "rsync -r --relative --verbose --copy-links --prune-empty-dirs static/js/*.js build/",
-        "mkdir:vendor": "mkdir -p build/node_modules/reveal.js/dist && mkdir -p build/node_modules/reveal.js/plugin/markdown && mkdir -p build/node_modules/reveal.js/plugin/search/ && mkdir -p build/node_modules/reveal.js/plugin/math/ && mkdir -p build/node_modules/reveal.js-plugins/audio-slideshow/",
-        "vendor:prod": "cp node_modules/reveal.js/dist/reveal.js build/node_modules/reveal.js/dist/reveal.js && cp node_modules/reveal.js/plugin/search/search.js build/node_modules/reveal.js/plugin/search/search.js && cp node_modules/reveal.js/plugin/markdown/markdown.js build/node_modules/reveal.js/plugin/markdown/markdown.js && cp node_modules/reveal.js/dist/reveal.css build/node_modules/reveal.js/dist/reveal.css && cp -r node_modules/reveal.js/plugin/math/ build/node_modules/reveal.js/plugin/ && cp node_modules/reveal.js-plugins/audio-slideshow/plugin.js build/node_modules/reveal.js-plugins/audio-slideshow/plugin.js",
         "prebuild:prod": "npm run clean:prod && npm run mkdir:prod && npm run copy:prod && npm run fonts:prod",
-        "build:prod": "npm run css:prod && npm run js:prod && npm run mkdir:vendor && npm run vendor:prod",
+        "build:prod": "npm run css:prod && npm run js:prod",
         "zip:prod": "npm run build:prod && zip -r gt-lecture.zip build"
     }
 }

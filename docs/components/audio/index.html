@@ -4,26 +4,26 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="None">
+        
         <meta name="author" content="Christopher Körber">
-        <link rel="canonical" href="https://ckoerber.github.io/group-theory-example-lecture/">
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>reveal.js based lecture</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
+        <link rel="canonical" href="https://ckoerber.github.io/group-theory-example-lecture/components/audio/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Audio - reveal.js based lecture</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
 
-        <script src="js/jquery-1.10.2.min.js" defer></script>
-        <script src="js/bootstrap.min.js" defer></script>
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
-    <body class="homepage">
+    <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href=".">reveal.js based lecture</a>
+                <a class="navbar-brand" href="../..">reveal.js based lecture</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -33,32 +33,32 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="navitem active">
-                                <a href="." class="nav-link">Home</a>
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Home</a>
                             </li>
-                            <li class="dropdown">
+                            <li class="dropdown active">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Components <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="components/figures/" class="dropdown-item">Figures</a>
+    <a href="../figures/" class="dropdown-item">Figures</a>
 </li>
                                     
 <li>
-    <a href="components/audio/" class="dropdown-item">Audio</a>
+    <a href="./" class="dropdown-item active">Audio</a>
 </li>
                                     
 <li>
-    <a href="components/video/" class="dropdown-item">Video</a>
+    <a href="../video/" class="dropdown-item">Video</a>
 </li>
                                     
 <li>
-    <a href="components/embedding/" class="dropdown-item">Moodle</a>
+    <a href="../embedding/" class="dropdown-item">Moodle</a>
 </li>
                                 </ul>
                             </li>
                             <li class="navitem">
-                                <a href="about/" class="nav-link">About</a>
+                                <a href="../../about/" class="nav-link">About</a>
                             </li>
                         </ul>
 
@@ -69,17 +69,17 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" class="nav-link disabled">
+                                <a rel="prev" href="../figures/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="components/figures/" class="nav-link">
+                                <a rel="next" href="../video/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="https://github.com/ckoerber/group-theory-example-lecture/edit/main/doc-src/index.md" class="nav-link"><i class="fa fa-github"></i> Edit on GitHub</a>
+                                <a href="https://github.com/ckoerber/group-theory-example-lecture/edit/main/doc-src/components/audio.md" class="nav-link"><i class="fa fa-github"></i> Edit on GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -99,17 +99,21 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#lecture-based-on-revealjs" class="nav-link">Lecture based on reveal.js</a>
+            <li class="nav-item" data-level="1"><a href="#adding-an-audio-voice-over" class="nav-link">Adding an audio voice-over</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#modifications" class="nav-link">Modifications</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#run-it" class="nav-link">Run it</a>
+            <li class="nav-item" data-level="2"><a href="#used-tools" class="nav-link">Used tools</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#components" class="nav-link">Components</a>
+            <li class="nav-item" data-level="2"><a href="#concept" class="nav-link">Concept</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#steps" class="nav-link">Steps</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#configuration" class="nav-link">Configuration</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -120,52 +124,57 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="lecture-based-on-revealjs">Lecture based on reveal.js</h1>
-<p>This repository contains slides presented in the weekly <em>"Group Theory in Nuclear and Particle Physics"</em> lecture (the 10th lecture) at Ruhr-University Bochum during the winter semester of 21/22.
-The lecture is a master's level course for physicists and mathematicians.</p>
-<p>In this documentation, you can find</p>
+<h1 id="adding-an-audio-voice-over">Adding an audio voice-over</h1>
+<p>This section explains how to add an audio voice-over to the slides (or how to disable it).</p>
+<h2 id="used-tools">Used tools</h2>
 <ul>
-<li>details and brief instructions about the used packages,</li>
-<li>the concept behind the slides and customizations made to match the weekly lecture schedule</li>
+<li><a href="https://www.audacityteam.org/">Audacity</a></li>
+<li><a href="https://github.com/ckoerber/group-theory-example-lecture/blob/main/scripts/label.py"><code>scripts/label.py</code></a></li>
+<li><em>(Already included in the presentation by default)</em> <a href="https://github.com/rajgoel/reveal.js-plugins/tree/master/audio-slideshow">reveal.js-plugins/audio-slideshow</a> and <a href="https://github.com/ckoerber/group-theory-example-lecture/blob/main/static/js/timer.js"><code>static/js/timer.js</code></a></li>
 </ul>
-<h2 id="modifications">Modifications</h2>
-<p>These slides are based on <a href="https://revealjs.com/">reveal.js</a>.
-The repository is already configured to load dependencies and style files automatically.
-This configuration is implemented by the <code>index.html</code> file, which loads the content of the slides via the <code>&lt;section data-markdown="slides/lecture-10/*.html"&gt;</code> tags.
-The source code for individual slides can be found in the <code>slides/lecture-10/*.html</code> files.
-If you want to update the slides, adjust the respective slide HTML.
-If you want to add or remove slides, adjust or add corresponding section tags in the <code>index.html</code> file.
-It is also possible to load <a href="https://revealjs.com/markdown/">markdown files</a> instead of HTML files.
-Both the markdown and HTML versions can render latex (wrapped with a single <code>$</code>for inline latex and a double <code>$$</code> for equation environments).</p>
-<p>In the language of reveal.js, individual slides are called <code>&lt;sections&gt;</code> (html tags) and animated objects within slides are called <a href="https://revealjs.com/fragments/"><code>class="fragment"</code></a> (html attributes).
-Contents like headings, paragraphs, lists, and images follow the standard HTML or markdown syntax.</p>
-<h2 id="run-it">Run it</h2>
-<p>The slides can be viewed on a local machine without installing dependencies; they are already included in the static folder (no additional <code>npm install</code> is needed).
-I.e., the presentation can be directly viewed in any browser (<code>index.html</code>) after cloning the repository.</p>
-<p>Because of the current file layout (slides are separated into several files and included by <code>index.html</code>),
-to properly access files, you have to launch a local HTTP server with</p>
-<pre><code class="language-bash">python3 -m http.server
-# or
-npx http-server
+<h2 id="concept">Concept</h2>
+<p>When recording the lecture, either using Audacity or Zoom, I create a single <code>mp3</code> file for the entire recording.
+The custom JavaScript <code>static/js/timer.js</code> logs whenever I advance a slide (right and down).
+This log can be imported into Audacity to identify reveal.js slides/fragments with sections of the recording (i.e., labeling the sound track).
+The individually labeled track can be exported to multiple <code>mp3</code> files, which are automatically detected by the presentation.
+This modularity allows replacing or modifying individual parts at a later point.</p>
+<p><em>(In principle, <code>reveal.js-plugins/audio-slideshow</code> adds a custom recorder to the browser with similar functionality.)</em></p>
+<h2 id="steps">Steps</h2>
+<p>Creating and linking the audio files to the presentation works in two steps.
+First, you have to create a presentation without the audio. Second, you have to record the audio and slide transitions ("Live").
+Third, you have to combine the information regarding slide transitions with the recorded audio file ("Post-Processing").</p>
+<h3 id="live">Live</h3>
+<ol>
+<li>Start a recording of the presentation.</li>
+<li>Open the slides and press the <code>s</code> key to reset the timer.</li>
+<li>Finish the presentation.</li>
+<li>Press the <code>d</code> key to download the log
+    (<strong>it essential you download the log before closing the browser/tab or pressing the <code>s</code> key again</strong>).</li>
+</ol>
+<h3 id="post-processing">Post-processing</h3>
+<ol>
+<li>Parse the downloaded CSV file into the Audacity readable format by running</li>
+</ol>
+<pre><code class="language-bash">python scripts/label.py [--coord &quot;{timestamp}-&gt;{slide}&quot;] log.csv
 </code></pre>
-<p>and visiting <a href="http://0.0.0.0:8000/">http://{ip-address}:8000/</a> (where the IP-address is usually <code>127.0.0.1</code>, <code>localhost</code>, or <code>0.0.0.0</code>; the above command tells you where to look).</p>
-<p>This server dependence can be circumvented by removing the <code>data-markdown="slides/lecture-10/0-about.html"</code> attributes in <code>index.html</code> and, instead, placing the file's content inside the <code>&lt;section&gt;</code> tags.</p>
-<h2 id="components">Components</h2>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>It was the design choice to place external dependencies rather on the creators' side so that the users (clients) only need to load a minimal set of dependencies&mdash;improving stability.
-The scripts and ideas explained in the following sections were used on macOS and Ubuntu systems.
-Some of the helper scripts used Python3.8.
-They are not thoroughly tested and should be viewed as an example for accomplishing the goal.
-I am happy to receive feedback and PRs which improve these steps.</p>
-</div>
-<ul>
-<li><a href="components/audio/">Creating audio files and the voice-over</a></li>
-<li><a href="components/video/">Recording and embedding videos</a></li>
-<li><a href="components/figures/">Animating vector graphics</a></li>
-<li><a href="components/custom-css/">Custom CSS and visual improvements</a></li>
-<li><a href="components/embedding/">Embedding slides into other frameworks (like Moodle)</a></li>
-</ul></div>
+<p>This script creates the file <code>log.csv.auda.txt</code>, which can be imported into Audacity.
+The optional <code>--coord</code> flag allows associating a given timestamp with a given slide/fragment position.
+I.e., <code>--coord "00:01:30-&gt;2.0"</code> specifies that the 1min 30s mark should correspond to slide transition <code>2.0</code>.
+The slide positions and fragments can be read of the browser URL, but note that they are offset by one.
+Once the <code>*.auda.txt</code> label file was created, you can manually adjust entries; i.e., remove unwanted transitions and adjust individual timings by editing the <code>txt</code> file (for example, in case of some transitions, in the beginning, should not be present).</p>
+<ol>
+<li>Import the audio file <code>File &gt; Import &gt; Audio</code> and label file <code>File &gt; Import &gt; Labels</code> into Audacity.</li>
+<li>Once you are happy with the label positions, export the individual files with <code>File &gt; Export &gt; Export Multiple...</code>. It is important to select:<ul>
+<li>"Split files based on Labels"</li>
+<li>"Name files using Labels/Track Name"</li>
+<li>and select the folder <code>media/audio/main</code> (can be changed)</li>
+</ul>
+</li>
+</ol>
+<p>The created audio files now correspond to the proper slide positions and are automatically detected by <code>audio-slideshow</code>.</p>
+<h2 id="configuration">Configuration</h2>
+<p>The configuration of the auto-slideshow is handled in  <a href="https://github.com/ckoerber/group-theory-example-lecture/blob/main/static/js/main-w-audio.js"><code>static/js/main-w-audio.js</code></a>.
+See also <a href="https://github.com/rajgoel/reveal.js-plugins/tree/master/audio-slideshow">reveal.js-plugins/audio-slideshow</a> for more options.</p></div>
             </div>
         </div>
 
@@ -174,11 +183,11 @@ I am happy to receive feedback and PRs which improve these steps.</p>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = ".",
+            var base_url = "../..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="js/base.js" defer></script>
-        <script src="search/main.js" defer></script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -243,8 +252,3 @@ I am happy to receive feedback and PRs which improve these steps.</p>
 
     </body>
 </html>
-
-<!--
-MkDocs version : 1.2.3
-Build Date UTC : 2022-02-19 18:19:51.796778+00:00
--->

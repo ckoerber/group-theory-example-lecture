@@ -2,7 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://ckoerber.github.io/group-theory-example-lecture/</loc>
-         <lastmod>2022-02-15</lastmod>
+         <lastmod>2022-02-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ckoerber.github.io/group-theory-example-lecture/about/</loc>
+         <lastmod>2022-02-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ckoerber.github.io/group-theory-example-lecture/components/audio/</loc>
+         <lastmod>2022-02-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ckoerber.github.io/group-theory-example-lecture/components/custom-css/</loc>
+         <lastmod>2022-02-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ckoerber.github.io/group-theory-example-lecture/components/embedding/</loc>
+         <lastmod>2022-02-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ckoerber.github.io/group-theory-example-lecture/components/figures/</loc>
+         <lastmod>2022-02-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ckoerber.github.io/group-theory-example-lecture/components/video/</loc>
+         <lastmod>2022-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
