@@ -49,8 +49,8 @@ This can be circumvented by removing the `data-markdown="slides/lecture-10/0-abo
     I am happy to receive feedback and PRs which improve these steps.
 
 
-* Creating audio files and the voice-over
-* Recording and embedding videos
-* Animating vector graphics
-* Custom CSS and visual improvements
-* Embedding slides into other frameworks (like Moodle)
+* [Creating audio files and the voice-over](components/audio/)
+* [Recording and embedding videos](components/video/)
+* [Animating vector graphics](components/figures/)
+* [Custom CSS and visual improvements](components/custom-css/)
+* [Embedding slides into other frameworks (like Moodle)](components/embedding/)
