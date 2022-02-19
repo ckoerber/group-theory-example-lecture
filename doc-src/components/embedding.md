@@ -9,6 +9,8 @@ Reveal.js integration can be directly embedded into Moolde via the file feature.
 3. Unzip the uploaded zip folder in the Moodle tool and specify the `index.html` to be the main file.
     The link to this Moodle file resource will now display the presentation.
 
+![Steps to upload a reveal.js presentation to Moodle](imgs/moodle.jpeg)
+
 *Thank you to the [RUB eLearning](https://www.rubel.rub.de/en) support team for the helpful instructions!*
 
 
@@ -20,6 +22,9 @@ I.e., create a `Label` resource and add the following HTML
   Fallback text here for unsupporting browsers, of which there are scant few.
 </iframe>
 ```
+
+![Reveal.js embedded as iframe](imgs/iframe.jpg)
+
 
 ## Scripts
 
