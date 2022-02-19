@@ -19,7 +19,7 @@ If you want to add or remove slides, adjust or add corresponding section tags in
 It is also possible to load [markdown files](https://revealjs.com/markdown/) instead of html files.
 Both, the markdown and html versions, are capable of rendering latex (wrapped with a single `$`for inline latex and a double `$$` for equation environments).
 
-In the language of reveal.js, individual slides are called `sections` (an html tag) and animated objects within slides are called [`fragment`](https://revealjs.com/fragments/) (an html attribute).
+In the language of reveal.js, individual slides are called `<sections>` (html tags) and animated objects within slides are called [`class="fragment"`](https://revealjs.com/fragments/) (html attributes).
 Contents like headings, pargraphs, lists, and images follow the standard html or markdown syntax.
 
 
@@ -32,13 +32,22 @@ to properly access files, you have to launch a local http server with
 ```bash
 python3 -m http.server
 # or
-npx  http-server
+npx http-server
 ```
 and visiting [http://{ip-address}:8000/](http://0.0.0.0:8000/) (where the IP-address is usually `127.0.0.1`, `localhost`, or `0.0.0.0`; the above command tells you where to look).
 
 This can be circumvented by removing the `data-markdown="slides/lecture-10/0-about.html"` attributes in `index.html` and, instead, placing the content of the file inside the `<section>` tags.
 
 ## Components
+
+
+!!! note
+    It was the design choice to place external dependencies rather on the side of the creators so that the users (clients) only need to load a minimal set of dependencies&mdash;improving stability.
+    The scripts and ideas explained in the following sections were used on macOS and Ubuntu systems.
+    Some of the helper scripts used Python3.8.
+    They are not thoroughly tested and should be viewed as an example for accomplishing the goal.
+    I am happy to receive feedback and PRs which improve these steps.
+
 
 * Creating audio files and the voice-over
 * Recording and embedding videos
