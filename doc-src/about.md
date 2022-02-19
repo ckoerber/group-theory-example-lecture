@@ -1,29 +1,26 @@
-# Currently under construction
-
 # About
 
-# This lecture
+Because of the COVID-19 Pandemic, it was not feasible to have in-person (university) lectures during the entire year of 2021.
+Remote lectures were Zoom meetings.
+On first thought, the two most common options for presenting theoretical knowledge are
 
-Because of the COVID-19 Pandemic, it was not feasible to have in person lectures during the entire year of 2021.
+* white-board like lectures where the majority of the meeting uses handwritten visuals, and
+* the presentation of slides.
 
-* Live and asynchronous access (possible to follow lecture without being live)
-* Enable as much interactivity as possible in remote situtation
-* Try to optimize workflow as much as possible
-* Presentation is heavy workload in begining but more efficient later
-* Very important to allow access without prequisites and add version control
-* Want dynamic elements like videos, interactive js, ...
-* Recordings of entire lecture not flexible in case of adjustments / editing / memory footprint / resolution / searching of content
+Depending on the content, both have down- and upsides. So, why shouldn't one use both?
 
-## reveal.js
-The presented slides are based on the presentation framework [reveal.js](https://revealjs.com/).
-Using their own words
+Having the demands that:
 
-!!! note ""
+* The lectures should be reasonably standalone. I.e., accessibly both in "live" events and "asynchronously" on learning platforms (like Moodle).
+* The asynchronous part should be interactive and searchable.
+* The lectures should contain dynamic elements (videos, intractable graphs, quizzes, ...).
+* The lectures should be under version control and editable by the Teaching Assistants (i.e., platform-independent and uses open-source stacks; with a strong emphasis here)
 
-    reveal.js is an open source HTML presentation framework. It's a tool that enables anyone with a web browser to create fully-featured and beautiful presentations for free.
+While LaTeX/Beamer fulfills most of the points (though I find it relatively hard to obtain "visual beauty"), it does not allow dynamic components; so one would have to develop and deploy further resources.
 
-    Presentations made with reveal.js are built on open web technologies. That means anything you can do on the web, you can do in your presentation. Change styles with CSS, include an external web page using an `<iframe>` or add your own custom behavior using our JavaScript API.
+While Keynote and PowerPoint fulfill the first points, they are unfortunately not open-source, and it is not useful to place related files under version control (plus they have a relatively large memory footprint).
 
-    The framework comes with a broad range of features including nested slides, Markdown support, Auto-Animate, PDF export, speaker notes, LaTeX support and syntax highlighted code
+This eventually brought me to `reveal.js`&mdash; combining all of the above aspects; I would describe it as the dynamic web-equivalent of beamer.
 
-In my opinion, , it can be viewed as the HTML equivalent of LaTeX Beamer&mdash;which allows utilizing further, dynamic, (web) tools and
+Arguably, creating such material is a lot of work in the first place.
+However, I believe that if properly developed over multiple iterations, such material ensures a better education for future students and may even save preparation time in the long run.
