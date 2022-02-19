@@ -11,14 +11,13 @@ This section explains how to add an audio voice-over to the slides (or how to di
 
 ## Concept
 
-When creating recordings of the lecture, either using Audacity or Zoom, I create a single `mp3` file for the entire lecture.
+When recording the lecture, either using Audacity or Zoom, I create a single `mp3` file for the entire recording.
 The custom JavaScript `static/js/timer.js` logs whenever I advance a slide (right and down).
-This log can be imported into Audacity to identify reveal.js slides/fragments with parts of the recording (i.e., labeling the sound track).
-The individually labeled tracks can be exported to multiple `mp3` files, which are automatically detected by the presentation.
+This log can be imported into Audacity to identify reveal.js slides/fragments with sections of the recording (i.e., labeling the sound track).
+The individually labeled track can be exported to multiple `mp3` files, which are automatically detected by the presentation.
 This modularity allows replacing or modifying individual parts at a later point.
 
-!!! Note
-    In principle, `reveal.js-plugins/audio-slideshow` adds a custom recorder to the browser with similar functionality.
+*(In principle, `reveal.js-plugins/audio-slideshow` adds a custom recorder to the browser with similar functionality.)*
 
 
 ## Steps
@@ -29,7 +28,7 @@ This modularity allows replacing or modifying individual parts at a later point.
 2. Open the slides and press the `s` key to reset the timer.
 3. Finish the presentation.
 4. Press the `d` key to download the log
-    (**it essential you download the log before closing the browser/tab or pressing the `s` key**).
+    (**it essential you download the log before closing the browser/tab or pressing the `s` key again**).
 
 ### Post-processing
 
@@ -47,6 +46,11 @@ Once the `*.auda.txt` label file was created, you can manually adjust entries; i
 3. Once you are happy with the label positions, export the individual files with `File > Export > Export Multiple...`. It is important to select:
     * "Split files based on Labels"
     * "Name files using Labels/Track Name"
-    * and select the folder `media/audio/main` (can be changed as specified in `static/js/main-w-audio.js`)
+    * and select the folder `media/audio/main` (can be changed)
 
 The created audio files now correspond to the proper slide positions and are automatically detected by `audio-slideshow`.
+
+## Configuration
+
+The configuration of the auto-slideshow is handled in  [`static/js/main-w-audio.js`](https://github.com/ckoerber/group-theory-example-lecture/blob/main/static/js/main-w-audio.js).
+See also [reveal.js-plugins/audio-slideshow](https://github.com/rajgoel/reveal.js-plugins/tree/master/audio-slideshow) for more options.
