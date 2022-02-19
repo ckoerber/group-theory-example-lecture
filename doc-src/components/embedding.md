@@ -1,11 +1,11 @@
 # Moodle integration
 
-Reveal.js integration can be directly embedded into Moolde via the file feature.
+Reveal.js integration can be directly embedded into Moodle via the file feature.
 
 ## Steps
 
 1. Zip the entire reveal.js presentation (including media, static, and HTML files).
-2. Create a file tool in the respective Moodle course and upload the zip.
+2. Create a file tool in the Moodle course and upload the zip.
 3. Unzip the uploaded zip folder in the Moodle tool and specify the `index.html` to be the main file.
     The link to this Moodle file resource will now display the presentation.
 
@@ -33,7 +33,7 @@ You can also run the
 npm run zip:prod
 ```
 command to compile static files and create a `zip` containing the entire page for the upload.
-Depending on modifications you have introduced, you may have to update the logic.
+Depending on the modifications you have introduced, you may have to update the logic.
 
 !!! note
     I am currently trending towards formulating this as a traditional `Makefile`.
